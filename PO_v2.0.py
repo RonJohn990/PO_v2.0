@@ -1,3 +1,4 @@
+from pandas.core.dtypes.missing import notnull
 import streamlit as st
 import pandas as pd
 import yfinance as yf
@@ -88,7 +89,9 @@ def currency_conversion(currency = 'INR'):
 
     return(df_tmp_all_ticker)
 
-# st.write(currency_conversion(currency_opt))
+
+
+
 
 # Initiating the 3 tabs for Page 1---------------------------------------------------------------------------
 tab1, tab2, tab3 = st.columns(3)
@@ -117,9 +120,10 @@ if ret2.checkbox('Log Change'):
 
 
 
-
-
-# Page 1 Tab 1 - Visualization ##############################################################
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
+# Page 1 Tab 1 - Visualization ######################################################################################
 if tab1.button('Simple Visualization'):
     # Visualization
     ## Line Chart of Adj. Close Prices
@@ -147,13 +151,20 @@ if tab1.button('Simple Visualization'):
     # fig = px.histogram(df_returns, nbins = 150, opacity = 0.6)
     st.plotly_chart(fig)
 
-#############################################################################################
+#####################################################################################################################
 
 
+
+
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
 
 # Custom Portfolio Sidebar Input-------------------------------------------------------------
 wts_custom = []
+lock_toggle_list = []
 lock_toggle_ticker_list = []
+wts_locked = []
 custom_toggle = 0
 if st.sidebar.checkbox('Custom Portfolio'):
     custom_toggle = 1
@@ -162,16 +173,15 @@ if st.sidebar.checkbox('Custom Portfolio'):
         label_name = f'Lock {ticker}'
         if st.sidebar.checkbox(label = label_name):
             lock_toggle = 1
+            lock_toggle_ticker_list.append(ticker)
+            wts_locked.append(tmp_no_input)
         else: 
             lock_toggle = 0
         wts_custom.append(tmp_no_input)
-        lock_toggle_ticker_list.append(lock_toggle)
-
-    st.write(lock_toggle_ticker_list)
-    st.write(lock_toggle)
+        lock_toggle_list.append(lock_toggle)
 
 
-
+    # Cutom Portfolio Metrics-----------------------------------------------------------------
     df_returns_mean = df_returns.mean() * 252
     annualized_returns_custom = np.sum(df_returns_mean * wts_custom)
     matrix_covariance_custom = df_returns.cov() * 252
@@ -180,7 +190,7 @@ if st.sidebar.checkbox('Custom Portfolio'):
     sharpe_custom = (annualized_returns_custom - RF) / portfolio_std_custom
     custom_portfolio_metrics = [annualized_returns_custom, portfolio_std_custom, sharpe_custom]
 
-    # Output on main page Tab 2 -------------------------------------------------------------
+    # Custom Portfolio Metrics Output on main page Tab 2 -------------------------------------------------------------
     st.header('Custom Portfolio Metrics')  
     col1, col2, col3 = st.columns(3)
     col1.metric(label = 'Annualized Returns', value = np.round(custom_portfolio_metrics[0], 2))
@@ -188,37 +198,55 @@ if st.sidebar.checkbox('Custom Portfolio'):
     col3.metric(label = 'Sharpe Ratio', value = np.round(custom_portfolio_metrics[2], 2))
 
 
+# Defining Function to construct weights for simulation for lock and default states ---------------------------------
+def weights_simulation(lock = 0):
+
+    if lock == 0:
+        weights_tmp = np.random.random(len(ticker_selection))
+        weights_tmp = np.round(weights_tmp / np.sum(weights_tmp), 4)
+        # portfolio_weights.append(weights)
+
+    elif lock == 1:
+        weights_tmp = np.random.random(len(ticker_selection) - len(wts_locked))
+        weights_tmp = np.round(weights_tmp / np.sum(weights_tmp), 4)
+        weights_tmp = weights_tmp * (1 - np.sum(wts_locked)) 
+        weights_tmp = np.hstack([weights_tmp, wts_locked])
+
+    return weights_tmp
 
 
 
-
-# Page 1 Tab 2 -  ###########################################################################
+# Page 1 Tab 2 -  ###################################################################################################
 if tab2.button('Portfolio Optimization'):
-    lock_toggle = 0
+    # lock_toggle = 0
+
+    if len(lock_toggle_ticker_list) == 0:
+        lock_toggle = 0
+    else:
+        lock_toggle = 1
+
+
+
     st.header('Efficient Frontier Analysis')
 
     # Defining function to plot the Efficient Frontier and Portfolio Metrics Dataframes-------
-    def efficient_frontier(no_portfolios = 10, RF = 0.05, custom = 0, lock = 0):
+
+    def efficient_frontier(no_portfolios = 100, RF = 0.05, custom = 0, lock = 0):
         portfolio_returns = []
         portfolio_risk = []
+        weights = []
         sharpe_ratio = []
         portfolio_weights = []
         df_returns_mean = df_returns.mean() * 252
         matrix_covariance = df_returns.cov() * 252
         
+        # for i in range(no_portfolios):
         i = 0
         for i in range(no_portfolios):
         # Generate Random Weights---------------------------------------------------------
+            weights = weights_simulation(lock)
+            portfolio_weights.append(weights)
 
-            if lock == 1:
-                weights = np.random.uniform(low = 0, high = 1 - wts_custom[2], size = 3)
-                weights = np.round(weights / np.sum(weights), 3)
-                # weights[2] = (wts_custom[2])
-                portfolio_weights.append(weights)
-            elif lock == 0:
-                weights = np.random.random(len(ticker_selection))
-                weights = np.round(weights / np.sum(weights), 3)
-                portfolio_weights.append(weights)
 
             # Annualized Returns--------------------------------------------------------------
             annualized_returns = np.sum(df_returns_mean * weights) # Already annualized
@@ -229,12 +257,12 @@ if tab2.button('Portfolio Optimization'):
             portfolio_std = np.sqrt(portfolio_variance)
             portfolio_risk.append(portfolio_std)
 
-            # Sharpe Ratio---------------------------------------------------------------------r
+            # Sharpe Ratio---------------------------------------------------------------------
             sharpe = (annualized_returns - RF) / portfolio_std
             sharpe_ratio.append(sharpe)
-    
 
-        # Dataframe from Analysing all the simulated portfolios
+
+        # Dataframe from Analysing all the simulated portfolios ----------------------------------------------
         df_metrics = pd.DataFrame([np.array(portfolio_returns),
                                 np.array(portfolio_risk),
                                 np.array(sharpe_ratio),
@@ -242,6 +270,7 @@ if tab2.button('Portfolio Optimization'):
 
         df_metrics = df_metrics.T
         
+
         # Finfing the min risk portfolio
         min_risk = df_metrics.iloc[df_metrics['Risk'].astype(float).idxmin()]
         wt_min  = portfolio_weights[df_metrics['Risk'].astype(float).idxmin()]
@@ -251,6 +280,7 @@ if tab2.button('Portfolio Optimization'):
         # Finding the portfolio with max Sharpe Ratio    
         max_sharpe = df_metrics.iloc[df_metrics['Sharpe_ratio'].astype(float).idxmax()]
         wt_sharpe  = portfolio_weights[df_metrics['Sharpe_ratio'].astype(float).idxmax()]
+
         # Isolating the weights from the above mentioned 3 portfolios
         weights = pd.DataFrame([wt_min, wt_max, wt_sharpe], index = ['Min Risk', 'Max Return', 'Max Sharpe Ratio'], columns = ticker_selection)
 
@@ -263,7 +293,6 @@ if tab2.button('Portfolio Optimization'):
         
         if custom == 1:
             d = fig.add_trace(go.Scatter(x = (custom_portfolio_metrics[1], np.nan) , y = (custom_portfolio_metrics[0], np.nan), mode = 'markers'))
-            #st.plotly_chart(c)
             st.plotly_chart(d)
 
         elif custom == 0:
@@ -273,8 +302,7 @@ if tab2.button('Portfolio Optimization'):
         return min_risk, max_return, max_sharpe, portfolio_weights, weights
 
     # Executing efficient_frontier funciton---------------------------------------------------------------------------
-    a_exec = efficient_frontier(N, 0.02, custom_toggle, lock_toggle) 
-
+    a_exec = efficient_frontier(N, RF, custom_toggle, lock_toggle)
     min_risk = pd.DataFrame({'Min Risk' : a_exec[0]})
     max_return = pd.DataFrame({'Max Return' : a_exec[1]})
     max_sharpe = pd.DataFrame({'Max Sharpe Ratio' : a_exec[2]})
@@ -288,11 +316,14 @@ if tab2.button('Portfolio Optimization'):
     
     st.subheader("Portfolio Metrics")
     st.write(final_portfolios_df)
+
 ######################################################################################################################
 
 
 
-
+#####################################################################################################################
+#####################################################################################################################
+#####################################################################################################################
 # Page  1 Tab 3 -  ###################################################################################################
 if tab3.button('Twitter Analysis'):
     st.header('Qualitative Analysis')
