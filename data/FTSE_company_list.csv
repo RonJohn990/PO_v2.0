@@ -1,1342 +1,1342 @@
-Symbol,Name
-AZN,AstraZeneca
-RDSA,Royal Dutch Shell
-RDSB,Royal Dutch Shell
-ULVR,Unilever
-DGE,Diageo
-HSBA,HSBC Holdings
-GSK,GlaxoSmithKline
-BP.,BP
-BATS,British American Tobacco
-RIO,Rio Tinto
-GLEN,Glencore
-REL,RELX
-BHP,BHP Group
-RKT,Reckitt Benckiser Group
-BNC,Banco Santander SA
-AAL,Anglo American
-NG.,National Grid
-LSEG,London Stock Exchange Group
-PRU,Prudential
-LLOY,Lloyds Banking Group
-EXPN,Experian
-BARC,Barclays
-VOD,Vodafone Group
-CRH,CRH
-CPG,Compass Group
-FERG,Ferguson
-AHT,Ashtead Group
-NWG,NatWest Group
-TSCO,Tesco
-FLTR,Flutter Entertainment
-SMT,Scottish Mortgage Investment Trust
-LGEN,Legal & General Group
-SSE,SSE
-BA.,BAE Systems
-SGRO,Segro
-BT.A,BT Group
-ABF,Associated British Foods
-AV.,Aviva
-IMB,Imperial Brands
-WPM,Wheaton Precious Metals Corp
-III,3i Group
-CRDA,Croda International
-STAN,Standard Chartered
-ANTO,Antofagasta
-WPP,WPP Group
-OCDO,Ocado Group
-HLMA,Halma
-SPX,Spirax-Sarco Engineering
-SN.,Smith & Nephew
-JD.,JD Sports Fashion
-NXT,Next
-RTO,Rentokil Initial
-SKG,Smurfit Kappa Group
-RR.,Rolls-Royce Group
-AVV,Aveva Group
-S32,South32 Ltd
-ENT,Entain
-BNZL,Bunzl
-CCH,Coca-Cola HBC AG
-ADM,Admiral Group
-ITRK,Intertek Group
-PSN,Persimmon
-STJ,St James's Place
-MNDI,Mondi
-EVR,Evraz
-IHG,InterContinental Hotels Group
-SGE,Sage Group
-JET,Just Eat Takeaway.Com NV
-SDR,Schroders
-INF,Informa
-WISE,Wise
-BDEV,Barratt Developments
-UU.,United Utilities Group
-SVT,Severn Trent
-BRBY,Burberry Group
-KGF,Kingfisher
-IAG,International Consolidated Airlines Group SA
-AUTO,Auto Trader Group
-MRO,Melrose Industries
-RMV,Rightmove
-PHNX,Phoenix Group Holdings
-SBRY,Sainsbury (J)
-FRES,Fresnillo
-HL.,Hargreaves Lansdown
-TW.,Taylor Wimpey
-BME,B&M European Value Retail SA
-ICP,Intermediate Capital Group
-AVST,Avast
-SMIN,Smiths Group
-POLY,Polymetal International
-WTB,Whitbread
-PSH,Pershing Square Holdings Ltd
-DCC,DCC
-ECM,Electrocomponents
-ONT,Oxford Nanopore Technologies
-MGGT,Meggitt
-LAND,Land Securities Group
-DPH,Dechra Pharmaceuticals
-HWDN,Howden Joinery Group
-BKG,Berkeley Group Holdings
-SMDS,DS Smith
-ABDN,abrdn
-MNG,M&G
-HIK,Hikma Pharmaceuticals
-RMG,Royal Mail Group
-AAF,Airtel Africa
-AIBG,AIB Group
-BLND,British Land Co
-FCIT,F&C Investment Trust
-BBOX,Tritax Big Box REIT
-FUTR,Future
-PSON,Pearson
-MKS,Marks & Spencer Group
-HCM,Hutchmed (China) Ltd
-IMI,IMI
-WEIR,Weir Group
-ITV,ITV
-UTG,UNITE Group
-WIZZ,Wizz Air Holding
-RCP,RIT Capital Partners
-DOCS,Dr. Martens
-DPLM,Diploma
-EZJ,easyJet
-CNA,Centrica
-BWY,Bellway
-SXS,Spectris
-JMAT,Johnson Matthey
-EDV,Endeavour Mining
-ABC,Abcam
-BPT,Bridgepoint Group
-FRAS,Frasers Group
-CTEC,ConvaTec Group
-DLN,Derwent London
-TUI,TUI AG
-DLG,Direct Line Insurance Group
-PCT,Polar Capital Technology Trust
-SCT,Softcat
-TPK,Travis Perkins
-ROO,Deliveroo Holdings
-WOSG,Watches Of Switzerland Group
-IGG,IG Group Holdings
-INCH,Inchcape
-SFOR,S4 Capital
-RSW,Renishaw
-GRG,Greggs
-SSON,Smithson Investment Trust
-HICL,HICL Infrastructure
-CCC,Computacenter
-GAW,Games Workshop Group
-UKW,Greencoat UK Wind
-GNS,Genus
-MNKS,Monks Investment Trust
-HBR,Harbour Energy
-PNN,Pennon Group
-ATST,Alliance Trust
-PHLL,Petershill Partners
-3IN,3i Infrastructure Ltd
-FEVR,Fevertree Drinks
-EMG,Man Group
-BYG,Big Yellow Group
-ROR,Rotork
-TATE,Tate & Lyle
-TRIG,The Renewables Infrastructure Group Ltd
-HSX,Hiscox Ltd
-SAFE,Safestore Holdings
-HSV,Homeserve
-DARK,Darktrace
-GFTU,Grafton Group
-IWG,IWG
-INPP,International Public Partnership Ltd
-AUY,Yamana Gold Inc
-INVP,Investec
-BEZ,Beazley
-DNLM,Dunelm Group
-LMP,Londonmetric Property
-THG,THG
-CCL,Carnival
-VTY,Vistry Group
-VMUK,Virgin Money UK
-RWS,RWS Holdings
-BVIC,Britvic
-HAS,Hays
-QLT,Quilter
-OSB,OSB Group
-RDW,Redrow
-DRX,Drax Group
-ITM,ITM Power
-KNOS,Kainos Group Ltd
-WWH,Worldwide Healthcare Trust
-ASC,ASOS
-SHB,Shaftesbury
-MDC,Mediclinic International
-PETS,Pets at Home Group
-GRI,Grainger
-CSP,Countryside Properties
-JET2,Jet2
-HVPE,Harbourvest Global Private Equity Ltd
-ULE,Ultra Electronics Holdings
-KWS,Keywords Studios
-PTEC,Playtech
-CLDN,Caledonia Investments
-VCT,Victrex
-PAGE,PageGroup
-MRC,Mercantile Investment Trust
-CBG,Close Brothers Group
-TEM,Templeton Emerging Markets Investment Trust
-DOM,Domino's Pizza Group
-ASHM,Ashmore Group
-SVS,Savills
-AGR,Assura
-FGT,Finsbury Growth & Income Trust
-PHP,Primary Health Properties
-CWK,Cranswick
-SSPG,SSP Group
-SMWH,WH Smith
-IPX,IMPAX Asset Management Group
-HGT,HgCapital Trust
-SEQI,Sequoia Economic Infrastructure Income Fund Ltd
-SYNT,Synthomer
-CWR,Ceres Power Holdings
-WTAN,Witan Investment Trust
-GPOR,Great Portland Estates
-GBG,GB Group
-IHP,IntegraFin Holdings
-INDV,Indivior
-ASCL,Ascential
-PIN,Pantheon International
-FXPO,Ferrexpo
-ATG,Auction Technology Group
-HTWS,Helios Towers
-PNL,Personal Assets Trust
-CTY,City of London Investment Trust
-YOU,YouGov
-N91,Ninety One
-BBY,Balfour Beatty
-SPT,Spirent Communications
-DATA,GlobalData
-SRE,Sirius Real Estate Ltd
-VVO,Vivo Energy
-BUR,Burford Capital Ltd
-BOY,Bodycote
-SRP,Serco Group
-NETW,Network International Holdings
-IEM,Impax Environmental Markets
-BNKR,Bankers Investment Trust
-VEIL,Vietnam Enterprise Investments Ltd
-BAB,Babcock International Group
-HRI,Herald Investment Trust
-BREE,Breedon Group
-GAMA,Gamma Communications
-CVSG,CVS Group
-FCSS,Fidelity China Special Situations
-NEX,National Express Group
-AJB,AJ Bell
-BOO,Boohoo Group
-TRY,TR Property Investment Trust
-ENOG,Energean
-QQ.,QinetiQ Group
-RHIM,RHI Magnesita NV
-GROW,Molten Ventures
-SONG+SONC,Hipgnosis Songs Fund Ltd
-OXIG,Oxford Instruments
-KAPE,Kape Technologies
-AML,Aston Martin Lagonda Global Holdings
-ATT,Allianz Technology Trust
-JMG,JPMorgan Emerging Markets Inv Trust
-MAB,Mitchells & Butlers
-JAM,JPMorgan American Investment Trust
-WKP,Workspace Group
-GEN,Genuit Group
-HMSO,Hammerson
-SNN,Sanne Group
-MYI,Murray International Trust
-CAPC,Capital & Counties Properties
-JUP,Jupiter Fund Management
-HILS,Hill & Smith Holdings
-SYNC,Syncona Ltd
-PAG,Paragon Banking Group
-VCP,Victoria
-LTG,Learning Technologies Group
-MCRO,Micro Focus International
-FEV,Fidelity European Trust
-MSLH,Marshalls
-FDM,FDM Group Holdings
-BYIT,Bytes Technology Group
-JTC,JTC
-TRST,Trustpilot Group
-PLUS,Plus500 Ltd
-SIR,Secure Income REIT
-CURY,Currys
-TRN,Trainline
-AWE,Alphawave IP Group
-LIO,Liontrust Asset Management
-CHRY,Chrysalis Investment Ltd
-WG.,Wood Group (John)
-JHD,James Halstead
-TIFS,TI Fluid Systems
-MOON,Moonpig Group
-OTV2,Octopus Titan VCT
-ASL,Aberforth Smaller Companies Trust
-IPO,IP Group
-LRE,Lancashire Holdings Ltd
-GLO,ContourGlobal
-TEP,Telecom plus
-BBGI,Bilfinger Berger Global Infrastructure SICAV SA
-RAT,Rathbone Brothers
-NFC,Next Fifteen Communications Group
-CLIN,Clinigen Group
-JDW,Wetherspoon (JD)
-VSVS,Vesuvius
-TCAP,TP ICAP
-SUPR,Supermarket Income Reit
-EWI,Edinburgh Worldwide Investment Trust
-KOS,Kosmos Energy Ltd
-CKN,Clarkson
-MGNS,Morgan Sindall
-BCG,Baltic Classifieds Group
-MONY,Moneysupermarket.com Group
-UPR,Uniphar
-888,888 Holdings
-BBH,BB Healthcare Trust
-SMS,Smart Metering Systems
-BRW,Brewin Dolphin Holdings
-APAX,APAX Global Alpha Ltd
-FAN,Volution Group
-AGT,AVI Global Trust
-BIFF,Biffa
-EDIN,Edinburgh Investment Trust
-BRWM,BlackRock World Mining Trust
-MUT,Murray Income Trust
-REDD,Redde Northgate
-BRSC,BlackRock Smaller Companies Trust
-JFJ,JPMorgan Japanese Investment Trust
-OXB,Oxford BioMedica
-XPP,XP Power Ltd
-LXI,LXI REIT
-HFG,Hilton Food Group
-MGAM,Morgan Advanced Materials
-CEY,Centamin
-TM17,Team17 Group
-COA,Coats Group
-ERM,Euromoney Institutional Investor
-BPCP,Biopharma Credit
-SPI,Spire Healthcare Group
-ESNT,Essentra
-THRG,Blackrock Throgmorton Trust
-LWDB,Law Debenture Corp
-UKCM,UK Commercial Property Trust Ltd
-BHMG,BH Macro Ltd
-DSCV,Discoverie Group
-BGSC,BMO Global Smaller Companies
-DIGS,GCP Student Living
-USA,Baillie Gifford US Growth Trust
-SDP,Schroder AsiaPacific Fund
-GCP,GCP Infrastructure Investments Ltd
-FSV,Fidelity Special Values
-EBOX,Tritax Eurobox
-CRST,Crest Nicholson Holdings Ltd
-PFD,Premier Foods
-SAIN,Scottish American Investment Co
-BIG,Big Technologies
-SEIT,SDCL Energy Efficiency Income Trust
-BGFD,Baillie Gifford Japan Trust
-CNE,Capricorn Energy
-MTO,Mitie Group
-HSL,Henderson Smaller Companies Investment Trust
-TBCG,TBC Bank Group
-AFX,Alpha FX Group
-CCR,C&C Group
-PFG,Provident Financial
-CLI,CLS Holdings
-DEC,Diversified Energy Company
-,FTSE 250 automatic entry position
-EOT,European Opportunities Trust
-SHED,Urban Logistics REIT
-DEVO,Devolver Digital Inc
-SUMO,Sumo Group
-SLPE,Standard Life Private Equity Trust
-ICGT,ICG Enterprise Trust
-PZC,PZ Cussons
-JEDT,JPMorgan European Discovery Trust
-NBPE,NB Private Equity Partners Ltd
-RCH,Reach
-TUNE,Focusrite
-PRTC,Puretech Health
-VOF,VinaCapital Vietnam Opportunity Fund Ltd
-EMIS,EMIS Group
-CGT,Capital Gearing Trust
-CRW,Craneware
-JUST,Just Group
-MRL,Marlowe
-JPE,JPMorgan Elect
-CHG,Chemring Group
-TRMR,Tremor International Ltd
-DGI9,Digital 9 Infrastructure
-IBST,Ibstock
-PEYS,Princess Private Equity Holding Ltd
-IDEA,Ideagen
-TYMN,Tyman
-BCPT,BMO Commercial Property Trust Ltd
-PHI,Pacific Horizon Investment Trust
-POLR,Polar Capital Holdings
-FOUR,4imprint Group
-MXCN,Maxcyte Inc
-TET,Treatt
-ELM,Elementis
-BGEO,Bank of Georgia Group
-FGP,FirstGroup
-MAB1,Mortgage Advice Bureau Holdings Ltd
-POG,Petropavlovsk
-HFD,Halfords Group
-MXCT,Maxcyte Inc
-WHR,Warehouse REIT
-CMCX,CMC Markets
-OCI,Oakley Capital Investments Ltd
-FEML,Fidelity Emerging Markets Ltd
-ERGO,Ergomed
-AUSC,Abrdn UK Smaller Companies Growth Trust
-BAKK,Bakkavor Group
-RNK,Rank Group
-JGGI,JPMorgan Global Growth & Income
-TMPL,Temple Bar Investment Trust
-CLG,Clipper Logistics Group Ltd
-THRL,Target Healthcare REIT Ltd
-NCC,NCC Group
-CRE,Conduit Holdings Ltd
-HOME,Home Reit
-RTN,Restaurant Group
-HBRN,Hibernia REIT
-ICGC,Irish Continental Group
-AMS,Advanced Medical Solutions Group
-RICA,Ruffer Investment Company Ltd
-CRN,Cairn Homes
-MRCH,Merchants Trust
-KLR,Keller Group
-HOTC,Hotel Chocolat Group Ltd
-SOI,Schroder Oriental Income Fund Ltd
-YNGA,Young & Co's Brewery
-YNGN,Young & Co's Brewery
-TRG,TR European Growth Trust
-FDEV,Frontier Developments
-BRGE,BlackRock Greater Europe Investment Trust
-BGS,Baillie Gifford Shin Nippon
-SEPL,SEPLAT Petroleum Development Co
-GNC,Greencore Group
-WJG,Watkin Jones
-EUA,Eurasia Mining
-VTC,Vitec Group
-DAL,Dalata Hotel Group Ltd
-HOC,Hochschild Mining
-RNWH,Renew Holdings
-RST,Restore
-CTH,CareTech Holdings
-SQZ,Serica Energy
-TLW,Tullow Oil
-NAS,North Atlantic Smaller Companies Inv Trust
-SOLG,SolGold
-WPS,W.A.G Payment Solutions
-DFS,DFS Furniture
-JLEN,JLEN Environmental Assets Group Ltd
-,FTSE 250 automatic exit position
-STEM,SThree
-IBPO,Ienergizer Ltd
-CPI,Capita
-JII,JPMorgan Indian Investment Trust
-ORIT,Octopus Renewables Infrastructure Trust
-YCA,Yellow Cake
-DGN,Asia Dragon Trust
-FSFL,Foresight Solar Fund Ltd
-FORT,Forterra
-BSIF,Bluefield Solar Income Fund Ltd
-WIX,Wickes Group
-JSG,Johnson Service Group
-GGP,Greatland Gold
-RWI,Renewi
-PANR,Pantheon Resources
-RWA,Robert Walters
-KETL,Strix Group
-PPH,PPHE Hotel Group Ltd
-NESF,NextEnergy Solar Fund Ltd
-CSH,Civitas Social Housing
-PRSR,PRS REIT
-PFC,Petrofac Ltd
-TFIF,TwentyFour Income Fund Ltd
-APH,Alliance Pharma
-SNR,Senior
-BAG,Barr (AG)
-ALFA,Alfa Financial Software Holdings
-HWG,Harworth Group
-MLI,Industrials Reit Ltd
-DOTD,Dotdigital Group
-ATYM,Atalaya Mining
-TFW,Thorpe (F W)
-DMGT,Daily Mail and General Trust
-GRID,Gresham House Energy Storage Fund
-SHI,SIG
-MIDW,Midwich Group
-FDP,FD Technologies
-PCTN,Picton Property Income Ltd
-AFM,Alpha Financial Markets Consulting
-SCIN,Scottish Investment Trust
-MTVW,Mountview Estates
-LUCE,Luceco
-MADE,Made.Com Group
-FSG,Foresight Group Holdings Ltd
-ATR,Schroder Asian Total Return Investment Company
-HLCL,Helical
-TGA,Thungela Resources Ltd
-NICL,Nichols
-BGEU,Baillie Gifford European Growth Trust
-JDG,Judges Scientific
-MWY,Mid Wynd International Inv Trust
-CGI,Canadian General Investments Ltd
-SRC,SigmaRoc
-VLX,Volex Group
-AO.,AO World
-ESP,Empiric Student Property
-KCT,Kin and Carta
-EAT,European Assets Trust NV
-MARS,Marston's
-KIE,Kier Group
-DIG,Dunedin Income Growth Inv Trust
-BIOG,Biotech Growth Trust
-RGL,Regional REIT Ltd
-BOKU,Boku Inc
-PCFT,Polar Capital Global Financials Trust
-SGC,Stagecoach Group
-AMYT,Amryt Pharma
-RQIH,Randall & Quilter Investment Holdings
-BUT,Brunner Investment Trust
-WINE,Naked Wines
-AAS,Aberdeen Standard Asia Focus
-UEM,Utilico Emerging Markets Ltd
-CREI,Custodian Reit
-CORD,Cordiant Digital Infrastructure Ltd
-JCH,JPMorgan Claverhouse Investment Trust
-OTB,On The Beach Group
-RENX,Renalytix AI
-LSL,LSL Property Services
-GYM,The Gym Group
-SBRE,Sabre Insurance Group
-TTG,TT Electronics
-PAY,PayPoint
-GLE,MJ Gleeson
-MTW,Mattioli Woods
-BRK,Brooks Macdonald Group
-WIN,Wincanton
-HFEL,Henderson Far East Income Ltd
-ARB,Argo Blockchain
-PAC,Pacific Assets Trust
-CAML,Central Asia Metals
-CINE,Cineworld Group
-JAGI,JPMorgan Asia Growth & Income
-MPE,M.P. Evans Group
-JEMI,JPMorgan Global Emerging Markets Income Trust
-ASLI,Aberdeen Standard European Logistics Income
-KMR,Kenmare Resources
-PODP,Pod Point Group Holdings
-GABI,GCP Asset Backed Income Fund Ltd
-INDI,Indus Gas Ltd
-TKO,Taseko Mines Ltd
-CSN,Chesnara
-JETG+JETI,JPMorgan European Investment Trust
-PINT,Pantheon Infrastructure
-SEE,Seeing Machines Ltd
-DIVI,Diverse Income Trust
-IHR,Impact Healthcare REIT
-SNG,Synairgen
-LBG,LBG Media
-JCGI,JPMorgan China Growth & Income
-NAIT,North American Income Trust
-MTE,Montanaro European Smaller Companies Trust
-GSF,Gore Street Energy Storage Fund
-BMK,Benchmark Holdings
-ABDP,AB Dynamics
-BOWL,Hollywood Bowl Group
-AAIF,Aberdeen Asian Income Fund Ltd
-SOHO,Triple Point Social Housing REIT
-JLP,Jubilee Metals Group
-NUM,Numis Corporation
-JSE,Jadestone Energy Inc
-FCH,Funding Circle Holdings
-SWEF,Starwood European Real Estate Finance Ltd
-GKP,Gulf Keystone Petroleum Ltd
-BOCH,Bank of Cyprus Holdings
-TBLD,tinyBuild Inc
-DWF,DWF Group Ltd
-SAGA,Saga
-SPEC,Inspecs Group
-BOOT,Boot (Henry)
-PCGH,Polar Capital Global Healthcare Growth & Income
-BGUK,Baillie Gifford UK Growth Fund
-VP.,Vp
-PSDL,Phoenix Spree Deutschland Ltd
-VIC,Victorian Plumbing Group
-MNP,Martin Currie Global Portfolio Trust
-AFC,AFC Energy
-REVB,Revolution Beauty Group
-BPET,BMO Private Equity Trust
-TI1,Trian Investors 1 Ltd
-BCI,BMO Capital and Income Investment Trust
-GENL,Genel Energy
-CNIC,CentralNic Group
-ANII,Aberdeen New India Investment Trust
-THS,Tharisa
-BVC,BATM Advanced Communications Ltd
-HEAD,Headlam Group
-LWI,Lowland Investment Co
-FEET,Fundsmith Emerging Equities Trust
-RECI,Real Estate Credit Investment PCC Ltd
-AVON,Avon Protection
-LABS,Life Science Reit
-TAM,Tatton Asset Management
-ENQ,EnQuest
-HEFT,Henderson European Focus Trust
-EKF,EKF Diagnostics Holdings
-AERS,Aquila European Renewables Income Fund
-KGH,Knights Group Holdings
-RPS,RPS Group
-ACSO,Accesso Technology Group
-AXS,Accsys Technologies
-PAF,Pan African Resources
-ADT1,Adriatic Metals
-ABD,Aberdeen New Dawn Investment Trust
-GHE,Gresham House
-KIST,Kistos
-ELIX,Elixirr International
-SUS,S & U
-ACIC,Abrdn China Investment Company Ltd
-PRV,Porvair
-APTD,Aptitude Software Group
-FAS,Fidelity Asian Values
-HINT,Henderson International Income Trust
-DVO,Devro
-GSEO,VH Global Sustainable Energy Opportunities
-HONY,Honeycomb Investment Trust
-SDY,Speedy Hire
-OCN,Ocean Wilson Holdings
-FRP,FRP Advisory Group
-TMIP,Taylor Maritime Investments Ltd
-SLI,Standard Life Investments Property Inc Trust Ltd
-LSC,London Security
-AVCT,Avacta Group
-BIPS,Invesco Bond Income Plus Ltd
-JMF,JPMorgan Mid Cap Investment Trust
-HNE,Henderson EuroTrust
-PMI,Premier Miton Group
-PDG,Pendragon
-JMI,JPMorgan Smaller Companies Investment Trust
-BGLP,Blackstone Loan Financing Ltd
-ADIG,Aberdeen Diversified Income & Growth Trust
-PPS,Proton Motor Power Systems
-MMH,Marshall Motor Holdings
-GHH,Gooch & Housego
-IDOX,IDOX
-SST,Scottish Oriental Smaller Companies Trust
-JUSC,JPMorgan US Smaller Companies IT
-IBT,International Biotechnology Trust
-SOM,Somero Enterprises Inc
-MOTR,Motorpoint Group
-DLAR,De La Rue
-CGEO,Georgia Capital
-JRS,JPMorgan Russian Securities
-FJV,Fidelity Japan Trust
-BMY,Bloomsbury Publishing
-SSIT,Seraphim Space Investment Trust
-BRCK,Brickability Group
-IIT,Independent Investment Trust
-DTY,Dignity
-LOK,Lok'nStore Group
-SUPP,Schroder UK Public Private Trust
-GOG,Go-Ahead Group
-XPS,XPS Pensions Group
-IKA,Ilika
-LGRS,Loungers
-PBEE,Pensionbee Group
-TRCS,Tracsis
-LINV,Lendinvest
-APF,Anglo Pacific Group
-NCYT,Novacyt SA
-IPF,International Personal Finance
-AUGM,Augmentum Fintech
-SUP,Supreme
-AGL,Angle
-RCDO,Ricardo
-GTLY,Gateley (Holdings)
-MTU,Montanaro UK Smaller Companies Inv Tr
-MNZS,Menzies (John)
-IQE,IQE
-SRAD,Stelrad Group
-NRR,NewRiver REIT
-FSTA,Fuller Smith & Turner
-HYVE,Hyve Group
-AEP,Anglo-Eastern Plantations
-ECEL,Eurocell
-CREO,Creo Medical Group
-CAY,Charles Stanley Group
-HTG,Hunting
-CER,Cerillion
-SJG,Schroder Japan Growth Fund
-RTWG,RTW Venture Fund Ltd
-BCN,Bacanora Lithium
-RSE,Riverstone Energy Ltd
-SREI,Schroder Real Estate Investment Trust Ltd
-LTI,Lindsell Train Investment Trust
-RIV,River And Mercantile Group
-JSGI,Jpmorgan Japan Small Cap Growth & Income
-TIGT,Troy Income & Growth Trust
-VSL,VPC Specialty Lending Investments
-NCYF,CQS New City High Yield Fund Ltd
-NXR,Norcros
-LTHM,Latham (James)
-CLIG,City of London Investment Group
-KEYS,Keystone Law Group
-LOOK,Lookers
-K3C,K3 Capital Group
-BRFI,Blackrock Frontiers Investment Trust
-AMAT,Amati AIM VCT
-SCP,Schroder UK Mid Cap Fund
-GDWN,Goodwin
-OIG,Oryx International Growth Fund Ltd
-PEEL,Peel Hunt Ltd
-VTU,Vertu Motors
-IGR,IG Design Group
-WAND,WANdisco
-SLP,Sylvania Platinum Ltd
-HZM,Horizonte Minerals
-STB,Secure Trust Bank
-OAP3,Octopus Apollo VCT 3
-BMD,Baronsmead Second Venture Trust
-HHV,Hargreave Hale AIM VCT 1
-WATR,Water Intelligence
-REDX,Redx Pharma Ltd
-MCON,Mincon Group
-BGCG,Baillie Gifford China Growth Trust
-IAT,Invesco Asia Trust
-FNTL,Fintel
-SDRY,Superdry
-SAAS,Microlise Group
-MNL,Manchester & London Investment Trust
-STS,Securities Trust of Scotland
-PHTM,Photo-Me International
-ETX,e-Therapeutics
-PRE,Pensana Rare Earths
-88E,88 Energy Ltd
-HHI,Henderson High Income Trust
-BVT,Baronsmead Venture Trust
-NBMI,NB Global Monthly Income Fund Ltd
-PEBB,The Pebble Group
-GTE,Gran Tierra Energy Inc
-CHRT,Cohort
-BOOM,AudioBoom Group
-IPEL,Impellam Group
-PTAL,PetroTal Corp
-TRI,Trifast
-SED,Saietta Group
-TPX,TPXimpact Holdings
-TRB,Tribal Group
-TSTL,Tristel
-MER,Mears Group
-MACF,Macfarlane Group
-AGY,Allergy Therapeutics
-BREI,BMO Real Estate Investment Ltd
-SFR,Severfield
-UTL,UIL Ltd
-RSG,Resolute Mining Ltd
-HEIT,Harmony Energy Income Trust
-MCKS,McKay Securities
-SCF,Schroder Income Growth Fund
-IPU,Invesco Perpetual UK Smaller Companies Investment Trust
-GFRD,Galliford Try Holdings
-ANCR,Animalcare Group
-SAG,Science Group
-SAA,M&C Saatchi
-ASY,Andrews Sykes Group
-CCJI,CC Japan Income & Growth Trust
-CARD,Card Factory
-BEG,Begbies Traynor Group
-RIII,Rights and Issues Inv Trust
-EGL,Ecofin Global Utilities And Infrustructure Trust
-AIE,Ashoka India Equity Investment Trust
-JARA,JPMorgan Global Core Real Assets Ltd
-ZTF,Zotefoams
-SEC,Strategic Equity Capital
-BWNG,Brown (N) Group
-MGP,Medica Group
-BSE,Base Resources Ltd
-INS,Instem Life Science Systems
-TMO,Time Out Group
-ANIC,Agronomics Ltd
-MUL,Mulberry Group
-LORD,Lords Group Trading
-CHH,Churchill China
-CGL,Castelnau Group Ltd
-KPC,Keystone Positive Change Investment Trust
-RCN,Redcentric
-TXP,Touchstone Exploration Inc
-CCRD,Cordiant Digital Infrastructure Ltd
-TED,Ted Baker
-WIL,Wilmington
-SDI,SDI Group
-VTAS,Volta Finance Ltd
-CAM,Camellia
-RAV,Raven Property Group Ltd
-ACC,Access Intelligence
-RESI,Residential Secure Income
-QTX,Quartix Holdings
-IOG,IOG
-PUR,Pure Gold Mining Inc
-FSJ,Fisher (James) & Sons
-SMIF,TwentyFour Select Monthly Income Fund Ltd
-SLE,San Leon Energy
-UPGS,UP Global Sourcing Holdings
-,FTSE Small Cap entry level = 182.8
-IOM,Iomart Group
-DEV,Dev Clever Holdings
-MMAG,Musicmagpie
-CBP,Curtis Banks Group
-EPIC,Ediston Property Investment Co
-AEWU,AEW UK REIT
-WKOF,Weiss Korea Opportunity Fund Ltd
-INSE,Inspired Energy
-ARR,Aurora Investment Trust
-BVXP,Bioventix
-BOOK,Literacy Capital
-BASC,Brown Advisory US Smaller Companies
-TEG,Ten Entertainment Group
-EYE,Eagle Eye
-PHE,Powerhouse Energy Group
-AQX,Aquis Exchange
-CIR,Circassia Group
-WNWD,Windward Ltd
-ASEI,Aberdeen Standard Equity Income Trust
-BLTG,Blancco Technology Group
-SAR,Sareum Holdings
-GR1T,Grit Real Estate Income Group Ltd
-AVO,Advanced Oncotherapy
-GFM,Griffin Mining Ltd
-ESYS,Essensys
-FNX,Fonix Mobile
-REC,Record
-DX.,DX Group
-GELN,Gelion
-MTEC,Made Tech Group
-MMIT,Mobius Investment Trust
-MTRO,Metro Bank
-ROOF,Atrato Onsite Energy
-PEMB,Pembroke VCT B
-SCLP,Scancell Holdings
-PROC,Procook Group
-BRSA,BlackRock Sustainable American Income Trust
-CAPD,Capital Ltd
-ORPH,Open Orphan
-AJOT,AVI Japan Opportunity Trust
-GEM,Gemfields Group Ltd
-STVG,STV Group
-RM.,RM
-FTV,Foresight VCT
-JOUL,Joules Group
-MERC,Mercia Asset Management
-TGL,TransGlobe Energy Corp
-HDIV,Henderson Diversified Income Trust
-CGS,Castings
-OIT,Odyssean Investment Trust
-ANX,Anexo Group
-SUR,Sureserve Group
-ARIX,Arix Bioscience
-EPWN,Epwin Group
-ECK,Eckoh
-PPHC,Public Policy Holding Company Inc
-ASIT,Aberforth Split Level Income Trust
-NAVF,Nippon Active Value Fund
-I3E,i3 Energy
-G4M,Gear4music (Holdings)
-DUKE,Duke Royalty Ltd
-SPR,Springfield Properties
-CCPG,CVC Credit Partners European Opportunities Ltd
-PGOO,ProVen Growth & Income VCT
-FWD,Forward Partners Group
-LAM,Lamprell
-BGO,Bango
-MORE,Hostmore
-ALL,Atlantic Lithium Ltd
-COST,Costain Group
-OMG,Oxford Metrics
-CARR,Carr's Group
-SERE,Schroder European Real Estate Investment Trust Ltd
-FARN,Faron Pharmaceuticals OY
-CBOX,Cake Box Holdings
-GHT,Gresham Technologies
-ANP,Anpario
-STU,Studio Retail Group
-MIND,Mind Gym
-MGCI,M&G Credit Income Investment Trust
-DORE,Downing Renewables & Infrastructure Trust
-FRAN,Franchise Brands
-ASAI,ASA International Group
-XAR,Xaar
-ATS,Artemis Alpha Trust
-AT.,Ashtead Technology Holdings
-ADVT,AdvancedAdvT Ltd
-PDL,Petra Diamonds Ltd
-PGHZ,PCGH ZDP
-EGY,VAALCO Energy Inc
-AVG,Avingtrans
-D4T4,D4t4 Solutions
-ESKN,Esken Ltd
-CGH,Chaarat Gold Holdings Ltd
-PVN,ProVen VCT
-AFRN,Aferian
-CCT,Character Group
-IGC,India Capital Growth Fund Ltd
-TPT,Topps Tiles
-BRLA,BlackRock Latin American Investment Trust
-SENS,Sensyne Health
-SVML,Sovereign Metals Ltd
-HSP,Hargreaves Services
-FIF,Finsbury Food Group
-ASTO,AssetCo
-FOXT,Foxtons Group
-AAZ,Anglo Asian Mining
-HGEN,Hydrogenone Capital Growth
-BELL,Belluscura
-DPEU,DP Eurasia NV
-MRK,Marks Electrical Group
-BMN,Bushveld Minerals Ltd
-MCT,Middlefield Canadian Income Trusts Investment Company PCC
-CRPR,Cropper (James)
-FSF,Foresight Sustainable Forestry Company
-DNM,Dianomi
-ARBB,Arbuthnot Banking Group
-OSEC,Octopus AIM VCT 2
-PGR,Phoenix Global Resources
-BPM,BP Marsh & Partners
-INL,Inland Homes
-SBI,Sourcebio International
-MBH,Michelmersh Brick Holdings
-PCA,Palace Capital
-MAJE,Majedie Investments
-CMO,CMO Group
-JIM,Jarvis Securities
-ONC,Oncimmune Holdings
-AOM,ActiveOps
-W7L,Warpaint London
-EMH,European Metals Holdings Ltd
-LIT,Litigation Capital Management Ltd
-SDG,Sanderson Design Group
-BSV,British Smaller Companies VCT
-FTF,Foresight 4 VCT
-WYN,Wynnstay Group
-QXT,Quixant
-POLX,Polarean Imaging
-HAN+HANA,Hansa Investment Company Ltd
-EMAN,Everyman Media Group
-BERI,BlackRock Energy and Resources Income Trust
-FUL,The Fulham Shore
-VINO,Virgin Wines UK
-SOLI,Solid State
-EQLS,Equals Group
-HAT,H&T Group
-HUW,Helios Underwriting
-FUM,Futura Medical
-KOO,Kooth
-BEN,Bens Creek Group
-BIRD,Blackbird
-RMII,RM Infrastructure Income
-TUN,Tungsten West
-ESO,EPE Special Opportunities Ltd
-PHAR,Pharos Energy
-AREC,Arecor Therapeutics
-HEIQ,Heiq
-IGV,Income and Growth VCT
-NVT,Northern Venture Trust
-NTN,Northern 3 VCT
-HOT,Henderson Opportunities Trust
-ENW,Enwell Energy
-ZOO,Zoo Digital Group
-MTC,Mothercare
-MANO,Manolete Partners
-EAH,Eco Animal Health Group
-RBGP,RBG Holdings
-NTV,Northern 2 VCT
-OBI,Ondine Biomedical Inc
-ACRL,Accrol Group Holdings
-DDV1,Downing One VCT
-CMCL,Caledonia Mining Corp
-STAF,Staffline Group
-IES,Invinity Energy Systems
-EPG,EP Global Opportunities Trust
-BUMP,Seraphine Group
-CPC,City Pub Group
-NWF,NWF Group
-AGFX,Argentex Group
-CLX,Calnex Solutions
-CASP,Caspian Sunrise
-DIA,Dialight
-SCE,Surface Transforms
-NET,Netcall
-CYN,CQS Natural Resources Growth & Income
-VNH,Vietnam Holding Ltd
-MCB,McBride
-HSS,HSS Hire Group
-MPAC,Mpac Group
-NSI,New Star Investment Trust
-EQT,EQTEC
-PGH,Personal Group Holdings
-VLS,Velocys
-ARTL,Alpha Real Trust Ltd
-VIP,Value & Indexed Property Income Trust
-TEEC,Triple Point Energy Efficiency Infrastructure Company
-AATG,Albion Technology & General VCT
-NEXS,Nexus Infrastructure
-MIGO,Migo Opportunities Trust
-XLM,XLMedia
-STX,Shield Therapeutics
-TPFG,Property Franchise Group
-BKS,Beeks Financial Cloud Group
-KITW,Kitwave Group
-SPE,Sopheon
-LBOW,ICG-Longbow Senior Secured UK Property Debt Investments Ltd
-STCM,Steppe Cement Ltd
-CIC,Conygar Investment Company
-CAL,Capital & Regional
-CCP,Celtic
-C4XD,C4X Discovery Holdings
-DNL,Diurnal Group
-MINI,Miton UK Microcap Trust
-DDDD,4D Pharma
-BLV,Belvoir Group
-AEET,Aquila Energy Efficiency Trust
-SNWS,Smiths News
-MIX,Mobeus Income & Growth VCT
-CRS,Crystal Amber Fund Ltd
-DCTA,Directa Plus
-FAR,Ferro-Alloys Resources Ltd
-KAY,Kings Arms Yard VCT
-AJIT,Aberdeen Japan Investment Trust
-BEM,Beowulf Mining
-ETP,Eneraqua Technologies
-APTA,Aptamer Group
-BEMO,Baring Emerging EMEA Opportunities
-YGEN,Yourgene Health
-THX,Thor Explorations Ltd
-SIS,Science In Sport Ltd
-GMR,Gaming Realms
-LIKE,Likewise Group
-AAEV,Albion Enterprise VCT
-AADV,Albion Development VCT
-JZCP,JZ Capital Partners Ltd
-TRR,Trident Royalties
-ZPHR,Zephyr Energy
-LDG,Logistics Development Group
-MHN,Menhaden
-SBSI,Schroder Bsc Social Impact Trust
-JAY,Bluejay Mining
-OTMP,OnTheMarket
-RBW,Rainbow Rare Earths Ltd
-RMMC,River And Mercantile UK Micro Cap Investment Co Ltd
-CBA,Ceiba Investments Ltd
-DFCH,Distribution Finance Capital Holdings
-AXI,Axiom European Financial Debt Ltd
-SCS,SCS Group
-BMS,Braemar Shipping Services
-MATE,JPMorgan Multi-Asset Trust
-PMP,Portmeirion Group
-FEN,Frenkel Topping Group
-IHC,Inspiration Healthcare Group
-RAI,RA International Group
-DXRX,Diaceutics
-ALU,Alumasc Group
-DNE,Dunedin Enterprise Investment Trust
-SHG,Shanta Gold Ltd
-DEVC,Draper Esprit VCT
-FLO,Flowtech Fluidpower
-ASCI,Aberdeen Smaller Companies Income Trust
-SHRS,Shires Income
-CAU,Centaur Media
-BSC,British Smaller Companies VCT 2
-DWHA,Dewhurst
-DWHT,Dewhurst
-WBI,Woodbois Ltd
-CTA,CT Automotive Group
-HSW,Hostelworld Group
-SBO,Schroder British Opportunities Trust
-LIV,Livermore Investments Group Ltd
-KBT,K3 Business Technology Group
-BSRT,Baker Steel Resources Trust Ltd
-MIRI,Mirriad Advertising
-MIG4,Mobeus Income & Growth 4 VCT
-GSP,Gensource Potash Corp
-TENG,Ten Lifestyle Group
-EJFI,EJF Investments Ltd
-GPH,Global Ports Holding
-SYME,Supply@Me Capital
-MCL,Morses Club
-NWOR,National World
-FIN,Finablr
-MAV4,Maven Income & Growth VCT4
-BHI,BMO UK High Income Trust
-ELCO,Eleco
-CUSN,Cornish Metals Inc
-4BB,4basebio
-HUR,Hurricane Energy
-TRLS,Trellus Health
-IQG,IQGEO Group
-PURP,Purplebricks Group
-TGR,Tirupati Graphite
-SAV,Savannah Resources
-TOWN,Town Centre Securities
-VRCI,Verici Dx
-JEL,Jersey Electricity Company Ltd
-RLE,Real Estate Investors
-MEX,Tortilla Mexican Grill
-CRWN,Crown Place VCT
-SFE,SafeStyle UK Ltd
-MJH,MJ Hudson Group
-ALS,Altus Strategies
-JKX,JKX Oil & Gas
-GEMD,Gem Diamonds Ltd
-OKYO,OKYO Pharma Corp
-HRN,Hornby
-FOG,Falcon Oil & Gas Ltd
-KMK,Kromek Group
-RNO,Renold
-ART,The Artisanal Spirits Company
-SPSY,Spectra Systems Corp
-SPSC,Spectra Systems Corp
-CTO,TClarke
-MWE,MTI Wireless Edge Ltd
-GRIO,Ground Rents Income Fund
-CML,CML Microsystems
-HSD,Hansard Global
-ARE,Arena Events Group
-EML,Emmerson
-MVI,Marwyn Value Investors Ltd
-SBTX,SkinBioTherapeutics
-XPD,Xpediator
-MKA,Mkango Resources Ltd
-SOS,Sosandar
-MIG5,Maven Income & Growth VCT 5
-ATM,AfriTin Mining Ltd
-TRU,TruFin
-PXC,Phoenix Copper Ltd
-TLY,Totally
-DEST,Destiny Pharma
-ATQT,Attraqt Group Ltd
-NBDG,NB Distressed Debt Investment Fund Ltd
-CNS,Corero Network Security
-AEXG,Aex Gold Inc
-SRT,SRT Marine Systems
-MAVT,Momentum Multi-Asset Value Trust
-SMJ,J Smart & Co Contractors
-TRIN,Trinity Exploration and Production
-AVAP,Avation
-VARE,Various Eateries
-CRC,Circle Property
-JEFI,Jupiter Emerging & Frontier Income Trust
-CRL,Creightons
-AURA,Aura Energy Ltd
-MIG1,Maven Income & Growth VCT
-SCRF,SME Credit Realisation Fund Ltd
-HUM,Hummingbird Resources
-NANO,Nanoco Group
-GMS,Gulf Marine Services
-JGC,Jupiter Green Investment Trust
-AIRE,Alternative Income REIT
-FCAP,finnCap Group
-TMG,The Mission Group
-GCL,Geiger Counter Ltd
-VRS,Versarien
-RMM,Rambler Metals and Mining
-CNC,Concurrent Technologies
-CIN,City of London Group
-TSL,ThinkSmart Ltd
-AIR,Air Partner
-EXR,Engage Xr Holdings
-SHOE,Shoe Zone
-BMPI,BMO Managed Portfolio Trust
-RE.,R.E.A. Holdings
-ADT,AdEPT Technology Group
-FIPP,Frontier IP Group
-MXC,MGC Pharmaceuticals Ltd
-KWG,Kingswood Holdings Ltd
-BOTB,Best of the Best
-CKT,Checkit
-ALM,Allied Minds
-GRL,GoldStone Resources Ltd
-CHAR,Chariot Oil & Gas Ltd
-INHC,Induction Healthcare Group
-RBG,Revolution Bars Group
-DVRG,DeepVerge
-SPA,1Spatial Holdings
-MAI,Maintel Holdings
-ARS,Asiamet Resources Ltd
-RFX,Ramsdens Holdings
-ULS,ULS Technology
-MYSL,MySale Group
-CYAN,Cyanconnode Holdings
-SYS1,System1 Group
-AMTE,Amte Power
-TUNG,Tungsten Corp
-CFX,Colefax Group
-AAVC,Albion Venture Capital Trust
-KOD,Kodal Minerals
-INSG,Insig AI
-VANL,Van Elle Holdings
-AFRK,Afarak Group
-SMD,Spectral MD Holdings Ltd
-RKW,Rockwood Realisation
-KNB,Kanabo Group
-ITS,In The Style Group
-NBI,Northbridge Industrial Services
-LLAI,Lunglife Ai Inc
-PNS,Panther Securities
-RENE,ReNeuron Group
-POLB,Poolbeg Pharma
-AAU,Ariana Resources
-QRT,Quarto Group Inc
-TERN,Tern
-EAAS,eEnergy Group
-,FTSE Small Cap exit level = 45.7
-PMG,Parkmead Group
-ODX,Omega Diagnostics Group
-MIG3,Maven Income & Growth VCT 3
-OPG,OPG Power Ventures
-GUS,Gusbourne
-KRPZ,Kropz
-CNR,Condor Gold
-HCFT,Highcroft Investments
-JOG,Jersey Oil and Gas
-APP,Appreciate Group
-XPF,Xp Factory
-CNKS,Cenkos Securities
-LIB,Libertine Holdings
-G3E,G3 Exploration Ltd
-ADV,Advance Energy
-TEK,Tekcapital
-SDV,Chelverton UK Dividend Trust
-IGP,Intercede Group
-SRB,Serabi Gold
-SGZ,Scotgold Resources Ltd
-BIDS,Bidstack Group
-SLFR,SLF Realisation Fund Ltd
-WEN,Wentworth Resources Ltd
-ANG,Angling Direct
-HE1,Helium One Global Ltd
-ASLR,Asimilar Group
-GATC,Gattaca
-XTR,Xtract Resources
-ZNWD,Zinnwald Lithium
-PPC,President Energy
-SYM,Symphony Environmental Technologies
-BBB,Bigblu Broadband
-EBQ,Ebiquity
-IUG,Intelligent Ultrasound Group
-EMR,Empresaria Group
-ABDX,Abingdon Health
-BRIG,Blackrock Income & Growth Investment Trust
-THRU,Thruvision Group
-PTR,Petroneft Resources
-EME,Empyrean Energy
-WCAT,Wildcat Petroleum
-GOOD,Good Energy Group
-ECO,Eco (Atlantic) Oil & Gas Ltd
-COG,Cambridge Cognition Holdings
-DCI,Dolphin Capital Investors Ltd
-GDR,Genedrive
-TM1,Technology Minerals
-OBD,Oxford BioDynamics
-DPP,DP Poland
-OPTI,OptiBiotix Health
-SGEM,ScotGems
-VLG,Venture Life Group
-SPO,Sportech
-TRX,Tissue Regenix Group
-CALL,Cloudcall Group
-PCIP,PCI-PAL
-KDNC,Cadence Minerals
-FLTA,Filta Group Holdings
-PREM,Premier African Minerals Ltd
-PU13,Puma VCT 13
-YU.,Yu Group
-TPG,TP Group
-GRC,GRC International Group
-GPM,Golden Prospect Precious Metals Ltd
-WSE,Work Service SA
-ITIM,Itim Group
-DSM,Downing Strategic Micro-Cap Investment Trust
-FPO,First Property Group
-NGHT,Nightcap
-LBE,Longboat Energy
-GFIN,Gfinity
-RKH,Rockhopper Exploration
-PMGR,Premier Miton Global Renewables Trust
-SOU,Sound Energy
-GST,GSTechnologies Ltd
-QFI,Quadrise Fuels International
-MSI,MS International
-IOF,Iofina
-MTR,Metal Tiger
-CBX,Cellular Goods
-WRKS,TheWorks.co.uk
-CHLL,Chill Brands Group
-GEEC,Great Eastern Energy Corp
-GETB,GetBusy
-SKL,Skillcast Group
-D4G,Downing Four VCT Generalist
-BMTO,Braime (T F & J H) (Holdings)
-BMT,Braime (T F & J H) (Holdings)
-MCLS,McColl's Retail Group Ltd
-CPX,CAP-XX Ltd
-DELT,Deltic Energy
-SBDS,Silver Bullet Data Services Group
-UHS,Umuthi Healthcare Solutions
-VLE,Volvere
-AET,Afentra
-ZOL,Zoltav Resources Inc
-GLAN,Glantus Holdings
-BKY,Berkeley Energia Ltd
-EISB,East Imperial
-CPP,CPP Group
-ALTN,Altyn
-ENET,Ethernity Networks Ltd
-PHC,Plant Health Care
-GENI,Genincode
-HAYD,Haydale Graphene Industries
-LST,Light Science Technologies Holdings
-BILN,Billington Holdings
-TND,Tandem Group
-WHI,WH Ireland Group
-UNG,Universe Group
-HARL,Harland & Wolff Group Holdings
-MTL,Metals Exploration
-SUH,Sutton Harbour Group
-OMI,Orosur Mining Inc
-SLFX,SLF Realisation Fund Ltd C Shares NPV
-ITX,Itaconix
-MPO,Macau Property Opportunities Fund Ltd
-FAB,Fusion Antibodies
-LMS,LMS Capital
-EDEN,Eden Research
+Ticker,Name,,Symbol
+AZN,AstraZeneca,.L,AZN.L
+RDSA,Royal Dutch Shell,.L,RDSA.L
+RDSB,Royal Dutch Shell,.L,RDSB.L
+ULVR,Unilever,.L,ULVR.L
+DGE,Diageo,.L,DGE.L
+HSBA,HSBC Holdings,.L,HSBA.L
+GSK,GlaxoSmithKline,.L,GSK.L
+BP.,BP,.L,BP..L
+BATS,British American Tobacco,.L,BATS.L
+RIO,Rio Tinto,.L,RIO.L
+GLEN,Glencore,.L,GLEN.L
+REL,RELX,.L,REL.L
+BHP,BHP Group,.L,BHP.L
+RKT,Reckitt Benckiser Group,.L,RKT.L
+BNC,Banco Santander SA,.L,BNC.L
+AAL,Anglo American,.L,AAL.L
+NG,National Grid,.L,NG.L
+LSEG,London Stock Exchange Group,.L,LSEG.L
+PRU,Prudential,.L,PRU.L
+LLOY,Lloyds Banking Group,.L,LLOY.L
+EXPN,Experian,.L,EXPN.L
+BARC,Barclays,.L,BARC.L
+VOD,Vodafone Group,.L,VOD.L
+CRH,CRH,.L,CRH.L
+CPG,Compass Group,.L,CPG.L
+FERG,Ferguson,.L,FERG.L
+AHT,Ashtead Group,.L,AHT.L
+NWG,NatWest Group,.L,NWG.L
+TSCO,Tesco,.L,TSCO.L
+FLTR,Flutter Entertainment,.L,FLTR.L
+SMT,Scottish Mortgage Investment Trust,.L,SMT.L
+LGEN,Legal & General Group,.L,LGEN.L
+SSE,SSE,.L,SSE.L
+BA.,BAE Systems,.L,BA..L
+SGRO,Segro,.L,SGRO.L
+BT.A,BT Group,.L,BT.A.L
+ABF,Associated British Foods,.L,ABF.L
+AV.,Aviva,.L,AV..L
+IMB,Imperial Brands,.L,IMB.L
+WPM,Wheaton Precious Metals Corp,.L,WPM.L
+III,3i Group,.L,III.L
+CRDA,Croda International,.L,CRDA.L
+STAN,Standard Chartered,.L,STAN.L
+ANTO,Antofagasta,.L,ANTO.L
+WPP,WPP Group,.L,WPP.L
+OCDO,Ocado Group,.L,OCDO.L
+HLMA,Halma,.L,HLMA.L
+SPX,Spirax-Sarco Engineering,.L,SPX.L
+SN.,Smith & Nephew,.L,SN..L
+JD.,JD Sports Fashion,.L,JD..L
+NXT,Next,.L,NXT.L
+RTO,Rentokil Initial,.L,RTO.L
+SKG,Smurfit Kappa Group,.L,SKG.L
+RR.,Rolls-Royce Group,.L,RR..L
+AVV,Aveva Group,.L,AVV.L
+S32,South32 Ltd,.L,S32.L
+ENT,Entain,.L,ENT.L
+BNZL,Bunzl,.L,BNZL.L
+CCH,Coca-Cola HBC AG,.L,CCH.L
+ADM,Admiral Group,.L,ADM.L
+ITRK,Intertek Group,.L,ITRK.L
+PSN,Persimmon,.L,PSN.L
+STJ,St James's Place,.L,STJ.L
+MNDI,Mondi,.L,MNDI.L
+EVR,Evraz,.L,EVR.L
+IHG,InterContinental Hotels Group,.L,IHG.L
+SGE,Sage Group,.L,SGE.L
+JET,Just Eat Takeaway.Com NV,.L,JET.L
+SDR,Schroders,.L,SDR.L
+INF,Informa,.L,INF.L
+WISE,Wise,.L,WISE.L
+BDEV,Barratt Developments,.L,BDEV.L
+UU.,United Utilities Group,.L,UU..L
+SVT,Severn Trent,.L,SVT.L
+BRBY,Burberry Group,.L,BRBY.L
+KGF,Kingfisher,.L,KGF.L
+IAG,International Consolidated Airlines Group SA,.L,IAG.L
+AUTO,Auto Trader Group,.L,AUTO.L
+MRO,Melrose Industries,.L,MRO.L
+RMV,Rightmove,.L,RMV.L
+PHNX,Phoenix Group Holdings,.L,PHNX.L
+SBRY,Sainsbury (J),.L,SBRY.L
+FRES,Fresnillo,.L,FRES.L
+HL.,Hargreaves Lansdown,.L,HL..L
+TW.,Taylor Wimpey,.L,TW..L
+BME,B&M European Value Retail SA,.L,BME.L
+ICP,Intermediate Capital Group,.L,ICP.L
+AVST,Avast,.L,AVST.L
+SMIN,Smiths Group,.L,SMIN.L
+POLY,Polymetal International,.L,POLY.L
+WTB,Whitbread,.L,WTB.L
+PSH,Pershing Square Holdings Ltd,.L,PSH.L
+DCC,DCC,.L,DCC.L
+ECM,Electrocomponents,.L,ECM.L
+ONT,Oxford Nanopore Technologies,.L,ONT.L
+MGGT,Meggitt,.L,MGGT.L
+LAND,Land Securities Group,.L,LAND.L
+DPH,Dechra Pharmaceuticals,.L,DPH.L
+HWDN,Howden Joinery Group,.L,HWDN.L
+BKG,Berkeley Group Holdings,.L,BKG.L
+SMDS,DS Smith,.L,SMDS.L
+ABDN,abrdn,.L,ABDN.L
+MNG,M&G,.L,MNG.L
+HIK,Hikma Pharmaceuticals,.L,HIK.L
+RMG,Royal Mail Group,.L,RMG.L
+AAF,Airtel Africa,.L,AAF.L
+AIBG,AIB Group,.L,AIBG.L
+BLND,British Land Co,.L,BLND.L
+FCIT,F&C Investment Trust,.L,FCIT.L
+BBOX,Tritax Big Box REIT,.L,BBOX.L
+FUTR,Future,.L,FUTR.L
+PSON,Pearson,.L,PSON.L
+MKS,Marks & Spencer Group,.L,MKS.L
+HCM,Hutchmed (China) Ltd,.L,HCM.L
+IMI,IMI,.L,IMI.L
+WEIR,Weir Group,.L,WEIR.L
+ITV,ITV,.L,ITV.L
+UTG,UNITE Group,.L,UTG.L
+WIZZ,Wizz Air Holding,.L,WIZZ.L
+RCP,RIT Capital Partners,.L,RCP.L
+DOCS,Dr. Martens,.L,DOCS.L
+DPLM,Diploma,.L,DPLM.L
+EZJ,easyJet,.L,EZJ.L
+CNA,Centrica,.L,CNA.L
+BWY,Bellway,.L,BWY.L
+SXS,Spectris,.L,SXS.L
+JMAT,Johnson Matthey,.L,JMAT.L
+EDV,Endeavour Mining,.L,EDV.L
+ABC,Abcam,.L,ABC.L
+BPT,Bridgepoint Group,.L,BPT.L
+FRAS,Frasers Group,.L,FRAS.L
+CTEC,ConvaTec Group,.L,CTEC.L
+DLN,Derwent London,.L,DLN.L
+TUI,TUI AG,.L,TUI.L
+DLG,Direct Line Insurance Group,.L,DLG.L
+PCT,Polar Capital Technology Trust,.L,PCT.L
+SCT,Softcat,.L,SCT.L
+TPK,Travis Perkins,.L,TPK.L
+ROO,Deliveroo Holdings,.L,ROO.L
+WOSG,Watches Of Switzerland Group,.L,WOSG.L
+IGG,IG Group Holdings,.L,IGG.L
+INCH,Inchcape,.L,INCH.L
+SFOR,S4 Capital,.L,SFOR.L
+RSW,Renishaw,.L,RSW.L
+GRG,Greggs,.L,GRG.L
+SSON,Smithson Investment Trust,.L,SSON.L
+HICL,HICL Infrastructure,.L,HICL.L
+CCC,Computacenter,.L,CCC.L
+GAW,Games Workshop Group,.L,GAW.L
+UKW,Greencoat UK Wind,.L,UKW.L
+GNS,Genus,.L,GNS.L
+MNKS,Monks Investment Trust,.L,MNKS.L
+HBR,Harbour Energy,.L,HBR.L
+PNN,Pennon Group,.L,PNN.L
+ATST,Alliance Trust,.L,ATST.L
+PHLL,Petershill Partners,.L,PHLL.L
+3IN,3i Infrastructure Ltd,.L,3IN.L
+FEVR,Fevertree Drinks,.L,FEVR.L
+EMG,Man Group,.L,EMG.L
+BYG,Big Yellow Group,.L,BYG.L
+ROR,Rotork,.L,ROR.L
+TATE,Tate & Lyle,.L,TATE.L
+TRIG,The Renewables Infrastructure Group Ltd,.L,TRIG.L
+HSX,Hiscox Ltd,.L,HSX.L
+SAFE,Safestore Holdings,.L,SAFE.L
+HSV,Homeserve,.L,HSV.L
+DARK,Darktrace,.L,DARK.L
+GFTU,Grafton Group,.L,GFTU.L
+IWG,IWG,.L,IWG.L
+INPP,International Public Partnership Ltd,.L,INPP.L
+AUY,Yamana Gold Inc,.L,AUY.L
+INVP,Investec,.L,INVP.L
+BEZ,Beazley,.L,BEZ.L
+DNLM,Dunelm Group,.L,DNLM.L
+LMP,Londonmetric Property,.L,LMP.L
+THG,THG,.L,THG.L
+CCL,Carnival,.L,CCL.L
+VTY,Vistry Group,.L,VTY.L
+VMUK,Virgin Money UK,.L,VMUK.L
+RWS,RWS Holdings,.L,RWS.L
+BVIC,Britvic,.L,BVIC.L
+HAS,Hays,.L,HAS.L
+QLT,Quilter,.L,QLT.L
+OSB,OSB Group,.L,OSB.L
+RDW,Redrow,.L,RDW.L
+DRX,Drax Group,.L,DRX.L
+ITM,ITM Power,.L,ITM.L
+KNOS,Kainos Group Ltd,.L,KNOS.L
+WWH,Worldwide Healthcare Trust,.L,WWH.L
+ASC,ASOS,.L,ASC.L
+SHB,Shaftesbury,.L,SHB.L
+MDC,Mediclinic International,.L,MDC.L
+PETS,Pets at Home Group,.L,PETS.L
+GRI,Grainger,.L,GRI.L
+CSP,Countryside Properties,.L,CSP.L
+JET2,Jet2,.L,JET2.L
+HVPE,Harbourvest Global Private Equity Ltd,.L,HVPE.L
+ULE,Ultra Electronics Holdings,.L,ULE.L
+KWS,Keywords Studios,.L,KWS.L
+PTEC,Playtech,.L,PTEC.L
+CLDN,Caledonia Investments,.L,CLDN.L
+VCT,Victrex,.L,VCT.L
+PAGE,PageGroup,.L,PAGE.L
+MRC,Mercantile Investment Trust,.L,MRC.L
+CBG,Close Brothers Group,.L,CBG.L
+TEM,Templeton Emerging Markets Investment Trust,.L,TEM.L
+DOM,Domino's Pizza Group,.L,DOM.L
+ASHM,Ashmore Group,.L,ASHM.L
+SVS,Savills,.L,SVS.L
+AGR,Assura,.L,AGR.L
+FGT,Finsbury Growth & Income Trust,.L,FGT.L
+PHP,Primary Health Properties,.L,PHP.L
+CWK,Cranswick,.L,CWK.L
+SSPG,SSP Group,.L,SSPG.L
+SMWH,WH Smith,.L,SMWH.L
+IPX,IMPAX Asset Management Group,.L,IPX.L
+HGT,HgCapital Trust,.L,HGT.L
+SEQI,Sequoia Economic Infrastructure Income Fund Ltd,.L,SEQI.L
+SYNT,Synthomer,.L,SYNT.L
+CWR,Ceres Power Holdings,.L,CWR.L
+WTAN,Witan Investment Trust,.L,WTAN.L
+GPOR,Great Portland Estates,.L,GPOR.L
+GBG,GB Group,.L,GBG.L
+IHP,IntegraFin Holdings,.L,IHP.L
+INDV,Indivior,.L,INDV.L
+ASCL,Ascential,.L,ASCL.L
+PIN,Pantheon International,.L,PIN.L
+FXPO,Ferrexpo,.L,FXPO.L
+ATG,Auction Technology Group,.L,ATG.L
+HTWS,Helios Towers,.L,HTWS.L
+PNL,Personal Assets Trust,.L,PNL.L
+CTY,City of London Investment Trust,.L,CTY.L
+YOU,YouGov,.L,YOU.L
+N91,Ninety One,.L,N91.L
+BBY,Balfour Beatty,.L,BBY.L
+SPT,Spirent Communications,.L,SPT.L
+DATA,GlobalData,.L,DATA.L
+SRE,Sirius Real Estate Ltd,.L,SRE.L
+VVO,Vivo Energy,.L,VVO.L
+BUR,Burford Capital Ltd,.L,BUR.L
+BOY,Bodycote,.L,BOY.L
+SRP,Serco Group,.L,SRP.L
+NETW,Network International Holdings,.L,NETW.L
+IEM,Impax Environmental Markets,.L,IEM.L
+BNKR,Bankers Investment Trust,.L,BNKR.L
+VEIL,Vietnam Enterprise Investments Ltd,.L,VEIL.L
+BAB,Babcock International Group,.L,BAB.L
+HRI,Herald Investment Trust,.L,HRI.L
+BREE,Breedon Group,.L,BREE.L
+GAMA,Gamma Communications,.L,GAMA.L
+CVSG,CVS Group,.L,CVSG.L
+FCSS,Fidelity China Special Situations,.L,FCSS.L
+NEX,National Express Group,.L,NEX.L
+AJB,AJ Bell,.L,AJB.L
+BOO,Boohoo Group,.L,BOO.L
+TRY,TR Property Investment Trust,.L,TRY.L
+ENOG,Energean,.L,ENOG.L
+QQ.,QinetiQ Group,.L,QQ..L
+RHIM,RHI Magnesita NV,.L,RHIM.L
+GROW,Molten Ventures,.L,GROW.L
+SONG+SONC,Hipgnosis Songs Fund Ltd,.L,SONG+SONC.L
+OXIG,Oxford Instruments,.L,OXIG.L
+KAPE,Kape Technologies,.L,KAPE.L
+AML,Aston Martin Lagonda Global Holdings,.L,AML.L
+ATT,Allianz Technology Trust,.L,ATT.L
+JMG,JPMorgan Emerging Markets Inv Trust,.L,JMG.L
+MAB,Mitchells & Butlers,.L,MAB.L
+JAM,JPMorgan American Investment Trust,.L,JAM.L
+WKP,Workspace Group,.L,WKP.L
+GEN,Genuit Group,.L,GEN.L
+HMSO,Hammerson,.L,HMSO.L
+SNN,Sanne Group,.L,SNN.L
+MYI,Murray International Trust,.L,MYI.L
+CAPC,Capital & Counties Properties,.L,CAPC.L
+JUP,Jupiter Fund Management,.L,JUP.L
+HILS,Hill & Smith Holdings,.L,HILS.L
+SYNC,Syncona Ltd,.L,SYNC.L
+PAG,Paragon Banking Group,.L,PAG.L
+VCP,Victoria,.L,VCP.L
+LTG,Learning Technologies Group,.L,LTG.L
+MCRO,Micro Focus International,.L,MCRO.L
+FEV,Fidelity European Trust,.L,FEV.L
+MSLH,Marshalls,.L,MSLH.L
+FDM,FDM Group Holdings,.L,FDM.L
+BYIT,Bytes Technology Group,.L,BYIT.L
+JTC,JTC,.L,JTC.L
+TRST,Trustpilot Group,.L,TRST.L
+PLUS,Plus500 Ltd,.L,PLUS.L
+SIR,Secure Income REIT,.L,SIR.L
+CURY,Currys,.L,CURY.L
+TRN,Trainline,.L,TRN.L
+AWE,Alphawave IP Group,.L,AWE.L
+LIO,Liontrust Asset Management,.L,LIO.L
+CHRY,Chrysalis Investment Ltd,.L,CHRY.L
+WG.,Wood Group (John),.L,WG..L
+JHD,James Halstead,.L,JHD.L
+TIFS,TI Fluid Systems,.L,TIFS.L
+MOON,Moonpig Group,.L,MOON.L
+OTV2,Octopus Titan VCT,.L,OTV2.L
+ASL,Aberforth Smaller Companies Trust,.L,ASL.L
+IPO,IP Group,.L,IPO.L
+LRE,Lancashire Holdings Ltd,.L,LRE.L
+GLO,ContourGlobal,.L,GLO.L
+TEP,Telecom plus,.L,TEP.L
+BBGI,Bilfinger Berger Global Infrastructure SICAV SA,.L,BBGI.L
+RAT,Rathbone Brothers,.L,RAT.L
+NFC,Next Fifteen Communications Group,.L,NFC.L
+CLIN,Clinigen Group,.L,CLIN.L
+JDW,Wetherspoon (JD),.L,JDW.L
+VSVS,Vesuvius,.L,VSVS.L
+TCAP,TP ICAP,.L,TCAP.L
+SUPR,Supermarket Income Reit,.L,SUPR.L
+EWI,Edinburgh Worldwide Investment Trust,.L,EWI.L
+KOS,Kosmos Energy Ltd,.L,KOS.L
+CKN,Clarkson,.L,CKN.L
+MGNS,Morgan Sindall,.L,MGNS.L
+BCG,Baltic Classifieds Group,.L,BCG.L
+MONY,Moneysupermarket.com Group,.L,MONY.L
+UPR,Uniphar,.L,UPR.L
+888,888 Holdings,.L,888.L
+BBH,BB Healthcare Trust,.L,BBH.L
+SMS,Smart Metering Systems,.L,SMS.L
+BRW,Brewin Dolphin Holdings,.L,BRW.L
+APAX,APAX Global Alpha Ltd,.L,APAX.L
+FAN,Volution Group,.L,FAN.L
+AGT,AVI Global Trust,.L,AGT.L
+BIFF,Biffa,.L,BIFF.L
+EDIN,Edinburgh Investment Trust,.L,EDIN.L
+BRWM,BlackRock World Mining Trust,.L,BRWM.L
+MUT,Murray Income Trust,.L,MUT.L
+REDD,Redde Northgate,.L,REDD.L
+BRSC,BlackRock Smaller Companies Trust,.L,BRSC.L
+JFJ,JPMorgan Japanese Investment Trust,.L,JFJ.L
+OXB,Oxford BioMedica,.L,OXB.L
+XPP,XP Power Ltd,.L,XPP.L
+LXI,LXI REIT,.L,LXI.L
+HFG,Hilton Food Group,.L,HFG.L
+MGAM,Morgan Advanced Materials,.L,MGAM.L
+CEY,Centamin,.L,CEY.L
+TM17,Team17 Group,.L,TM17.L
+COA,Coats Group,.L,COA.L
+ERM,Euromoney Institutional Investor,.L,ERM.L
+BPCP,Biopharma Credit,.L,BPCP.L
+SPI,Spire Healthcare Group,.L,SPI.L
+ESNT,Essentra,.L,ESNT.L
+THRG,Blackrock Throgmorton Trust,.L,THRG.L
+LWDB,Law Debenture Corp,.L,LWDB.L
+UKCM,UK Commercial Property Trust Ltd,.L,UKCM.L
+BHMG,BH Macro Ltd,.L,BHMG.L
+DSCV,Discoverie Group,.L,DSCV.L
+BGSC,BMO Global Smaller Companies,.L,BGSC.L
+DIGS,GCP Student Living,.L,DIGS.L
+USA,Baillie Gifford US Growth Trust,.L,USA.L
+SDP,Schroder AsiaPacific Fund,.L,SDP.L
+GCP,GCP Infrastructure Investments Ltd,.L,GCP.L
+FSV,Fidelity Special Values,.L,FSV.L
+EBOX,Tritax Eurobox,.L,EBOX.L
+CRST,Crest Nicholson Holdings Ltd,.L,CRST.L
+PFD,Premier Foods,.L,PFD.L
+SAIN,Scottish American Investment Co,.L,SAIN.L
+BIG,Big Technologies,.L,BIG.L
+SEIT,SDCL Energy Efficiency Income Trust,.L,SEIT.L
+BGFD,Baillie Gifford Japan Trust,.L,BGFD.L
+CNE,Capricorn Energy,.L,CNE.L
+MTO,Mitie Group,.L,MTO.L
+HSL,Henderson Smaller Companies Investment Trust,.L,HSL.L
+TBCG,TBC Bank Group,.L,TBCG.L
+AFX,Alpha FX Group,.L,AFX.L
+CCR,C&C Group,.L,CCR.L
+PFG,Provident Financial,.L,PFG.L
+CLI,CLS Holdings,.L,CLI.L
+DEC,Diversified Energy Company,.L,DEC.L
+,FTSE 250 automatic entry position,.L,.L
+EOT,European Opportunities Trust,.L,EOT.L
+SHED,Urban Logistics REIT,.L,SHED.L
+DEVO,Devolver Digital Inc,.L,DEVO.L
+SUMO,Sumo Group,.L,SUMO.L
+SLPE,Standard Life Private Equity Trust,.L,SLPE.L
+ICGT,ICG Enterprise Trust,.L,ICGT.L
+PZC,PZ Cussons,.L,PZC.L
+JEDT,JPMorgan European Discovery Trust,.L,JEDT.L
+NBPE,NB Private Equity Partners Ltd,.L,NBPE.L
+RCH,Reach,.L,RCH.L
+TUNE,Focusrite,.L,TUNE.L
+PRTC,Puretech Health,.L,PRTC.L
+VOF,VinaCapital Vietnam Opportunity Fund Ltd,.L,VOF.L
+EMIS,EMIS Group,.L,EMIS.L
+CGT,Capital Gearing Trust,.L,CGT.L
+CRW,Craneware,.L,CRW.L
+JUST,Just Group,.L,JUST.L
+MRL,Marlowe,.L,MRL.L
+JPE,JPMorgan Elect,.L,JPE.L
+CHG,Chemring Group,.L,CHG.L
+TRMR,Tremor International Ltd,.L,TRMR.L
+DGI9,Digital 9 Infrastructure,.L,DGI9.L
+IBST,Ibstock,.L,IBST.L
+PEYS,Princess Private Equity Holding Ltd,.L,PEYS.L
+IDEA,Ideagen,.L,IDEA.L
+TYMN,Tyman,.L,TYMN.L
+BCPT,BMO Commercial Property Trust Ltd,.L,BCPT.L
+PHI,Pacific Horizon Investment Trust,.L,PHI.L
+POLR,Polar Capital Holdings,.L,POLR.L
+FOUR,4imprint Group,.L,FOUR.L
+MXCN,Maxcyte Inc,.L,MXCN.L
+TET,Treatt,.L,TET.L
+ELM,Elementis,.L,ELM.L
+BGEO,Bank of Georgia Group,.L,BGEO.L
+FGP,FirstGroup,.L,FGP.L
+MAB1,Mortgage Advice Bureau Holdings Ltd,.L,MAB1.L
+POG,Petropavlovsk,.L,POG.L
+HFD,Halfords Group,.L,HFD.L
+MXCT,Maxcyte Inc,.L,MXCT.L
+WHR,Warehouse REIT,.L,WHR.L
+CMCX,CMC Markets,.L,CMCX.L
+OCI,Oakley Capital Investments Ltd,.L,OCI.L
+FEML,Fidelity Emerging Markets Ltd,.L,FEML.L
+ERGO,Ergomed,.L,ERGO.L
+AUSC,Abrdn UK Smaller Companies Growth Trust,.L,AUSC.L
+BAKK,Bakkavor Group,.L,BAKK.L
+RNK,Rank Group,.L,RNK.L
+JGGI,JPMorgan Global Growth & Income,.L,JGGI.L
+TMPL,Temple Bar Investment Trust,.L,TMPL.L
+CLG,Clipper Logistics Group Ltd,.L,CLG.L
+THRL,Target Healthcare REIT Ltd,.L,THRL.L
+NCC,NCC Group,.L,NCC.L
+CRE,Conduit Holdings Ltd,.L,CRE.L
+HOME,Home Reit,.L,HOME.L
+RTN,Restaurant Group,.L,RTN.L
+HBRN,Hibernia REIT,.L,HBRN.L
+ICGC,Irish Continental Group,.L,ICGC.L
+AMS,Advanced Medical Solutions Group,.L,AMS.L
+RICA,Ruffer Investment Company Ltd,.L,RICA.L
+CRN,Cairn Homes,.L,CRN.L
+MRCH,Merchants Trust,.L,MRCH.L
+KLR,Keller Group,.L,KLR.L
+HOTC,Hotel Chocolat Group Ltd,.L,HOTC.L
+SOI,Schroder Oriental Income Fund Ltd,.L,SOI.L
+YNGA,Young & Co's Brewery,.L,YNGA.L
+YNGN,Young & Co's Brewery,.L,YNGN.L
+TRG,TR European Growth Trust,.L,TRG.L
+FDEV,Frontier Developments,.L,FDEV.L
+BRGE,BlackRock Greater Europe Investment Trust,.L,BRGE.L
+BGS,Baillie Gifford Shin Nippon,.L,BGS.L
+SEPL,SEPLAT Petroleum Development Co,.L,SEPL.L
+GNC,Greencore Group,.L,GNC.L
+WJG,Watkin Jones,.L,WJG.L
+EUA,Eurasia Mining,.L,EUA.L
+VTC,Vitec Group,.L,VTC.L
+DAL,Dalata Hotel Group Ltd,.L,DAL.L
+HOC,Hochschild Mining,.L,HOC.L
+RNWH,Renew Holdings,.L,RNWH.L
+RST,Restore,.L,RST.L
+CTH,CareTech Holdings,.L,CTH.L
+SQZ,Serica Energy,.L,SQZ.L
+TLW,Tullow Oil,.L,TLW.L
+NAS,North Atlantic Smaller Companies Inv Trust,.L,NAS.L
+SOLG,SolGold,.L,SOLG.L
+WPS,W.A.G Payment Solutions,.L,WPS.L
+DFS,DFS Furniture,.L,DFS.L
+JLEN,JLEN Environmental Assets Group Ltd,.L,JLEN.L
+,FTSE 250 automatic exit position,.L,.L
+STEM,SThree,.L,STEM.L
+IBPO,Ienergizer Ltd,.L,IBPO.L
+CPI,Capita,.L,CPI.L
+JII,JPMorgan Indian Investment Trust,.L,JII.L
+ORIT,Octopus Renewables Infrastructure Trust,.L,ORIT.L
+YCA,Yellow Cake,.L,YCA.L
+DGN,Asia Dragon Trust,.L,DGN.L
+FSFL,Foresight Solar Fund Ltd,.L,FSFL.L
+FORT,Forterra,.L,FORT.L
+BSIF,Bluefield Solar Income Fund Ltd,.L,BSIF.L
+WIX,Wickes Group,.L,WIX.L
+JSG,Johnson Service Group,.L,JSG.L
+GGP,Greatland Gold,.L,GGP.L
+RWI,Renewi,.L,RWI.L
+PANR,Pantheon Resources,.L,PANR.L
+RWA,Robert Walters,.L,RWA.L
+KETL,Strix Group,.L,KETL.L
+PPH,PPHE Hotel Group Ltd,.L,PPH.L
+NESF,NextEnergy Solar Fund Ltd,.L,NESF.L
+CSH,Civitas Social Housing,.L,CSH.L
+PRSR,PRS REIT,.L,PRSR.L
+PFC,Petrofac Ltd,.L,PFC.L
+TFIF,TwentyFour Income Fund Ltd,.L,TFIF.L
+APH,Alliance Pharma,.L,APH.L
+SNR,Senior,.L,SNR.L
+BAG,Barr (AG),.L,BAG.L
+ALFA,Alfa Financial Software Holdings,.L,ALFA.L
+HWG,Harworth Group,.L,HWG.L
+MLI,Industrials Reit Ltd,.L,MLI.L
+DOTD,Dotdigital Group,.L,DOTD.L
+ATYM,Atalaya Mining,.L,ATYM.L
+TFW,Thorpe (F W),.L,TFW.L
+DMGT,Daily Mail and General Trust,.L,DMGT.L
+GRID,Gresham House Energy Storage Fund,.L,GRID.L
+SHI,SIG,.L,SHI.L
+MIDW,Midwich Group,.L,MIDW.L
+FDP,FD Technologies,.L,FDP.L
+PCTN,Picton Property Income Ltd,.L,PCTN.L
+AFM,Alpha Financial Markets Consulting,.L,AFM.L
+SCIN,Scottish Investment Trust,.L,SCIN.L
+MTVW,Mountview Estates,.L,MTVW.L
+LUCE,Luceco,.L,LUCE.L
+MADE,Made.Com Group,.L,MADE.L
+FSG,Foresight Group Holdings Ltd,.L,FSG.L
+ATR,Schroder Asian Total Return Investment Company,.L,ATR.L
+HLCL,Helical,.L,HLCL.L
+TGA,Thungela Resources Ltd,.L,TGA.L
+NICL,Nichols,.L,NICL.L
+BGEU,Baillie Gifford European Growth Trust,.L,BGEU.L
+JDG,Judges Scientific,.L,JDG.L
+MWY,Mid Wynd International Inv Trust,.L,MWY.L
+CGI,Canadian General Investments Ltd,.L,CGI.L
+SRC,SigmaRoc,.L,SRC.L
+VLX,Volex Group,.L,VLX.L
+AO.,AO World,.L,AO..L
+ESP,Empiric Student Property,.L,ESP.L
+KCT,Kin and Carta,.L,KCT.L
+EAT,European Assets Trust NV,.L,EAT.L
+MARS,Marston's,.L,MARS.L
+KIE,Kier Group,.L,KIE.L
+DIG,Dunedin Income Growth Inv Trust,.L,DIG.L
+BIOG,Biotech Growth Trust,.L,BIOG.L
+RGL,Regional REIT Ltd,.L,RGL.L
+BOKU,Boku Inc,.L,BOKU.L
+PCFT,Polar Capital Global Financials Trust,.L,PCFT.L
+SGC,Stagecoach Group,.L,SGC.L
+AMYT,Amryt Pharma,.L,AMYT.L
+RQIH,Randall & Quilter Investment Holdings,.L,RQIH.L
+BUT,Brunner Investment Trust,.L,BUT.L
+WINE,Naked Wines,.L,WINE.L
+AAS,Aberdeen Standard Asia Focus,.L,AAS.L
+UEM,Utilico Emerging Markets Ltd,.L,UEM.L
+CREI,Custodian Reit,.L,CREI.L
+CORD,Cordiant Digital Infrastructure Ltd,.L,CORD.L
+JCH,JPMorgan Claverhouse Investment Trust,.L,JCH.L
+OTB,On The Beach Group,.L,OTB.L
+RENX,Renalytix AI,.L,RENX.L
+LSL,LSL Property Services,.L,LSL.L
+GYM,The Gym Group,.L,GYM.L
+SBRE,Sabre Insurance Group,.L,SBRE.L
+TTG,TT Electronics,.L,TTG.L
+PAY,PayPoint,.L,PAY.L
+GLE,MJ Gleeson,.L,GLE.L
+MTW,Mattioli Woods,.L,MTW.L
+BRK,Brooks Macdonald Group,.L,BRK.L
+WIN,Wincanton,.L,WIN.L
+HFEL,Henderson Far East Income Ltd,.L,HFEL.L
+ARB,Argo Blockchain,.L,ARB.L
+PAC,Pacific Assets Trust,.L,PAC.L
+CAML,Central Asia Metals,.L,CAML.L
+CINE,Cineworld Group,.L,CINE.L
+JAGI,JPMorgan Asia Growth & Income,.L,JAGI.L
+MPE,M.P. Evans Group,.L,MPE.L
+JEMI,JPMorgan Global Emerging Markets Income Trust,.L,JEMI.L
+ASLI,Aberdeen Standard European Logistics Income,.L,ASLI.L
+KMR,Kenmare Resources,.L,KMR.L
+PODP,Pod Point Group Holdings,.L,PODP.L
+GABI,GCP Asset Backed Income Fund Ltd,.L,GABI.L
+INDI,Indus Gas Ltd,.L,INDI.L
+TKO,Taseko Mines Ltd,.L,TKO.L
+CSN,Chesnara,.L,CSN.L
+JETG+JETI,JPMorgan European Investment Trust,.L,JETG+JETI.L
+PINT,Pantheon Infrastructure,.L,PINT.L
+SEE,Seeing Machines Ltd,.L,SEE.L
+DIVI,Diverse Income Trust,.L,DIVI.L
+IHR,Impact Healthcare REIT,.L,IHR.L
+SNG,Synairgen,.L,SNG.L
+LBG,LBG Media,.L,LBG.L
+JCGI,JPMorgan China Growth & Income,.L,JCGI.L
+NAIT,North American Income Trust,.L,NAIT.L
+MTE,Montanaro European Smaller Companies Trust,.L,MTE.L
+GSF,Gore Street Energy Storage Fund,.L,GSF.L
+BMK,Benchmark Holdings,.L,BMK.L
+ABDP,AB Dynamics,.L,ABDP.L
+BOWL,Hollywood Bowl Group,.L,BOWL.L
+AAIF,Aberdeen Asian Income Fund Ltd,.L,AAIF.L
+SOHO,Triple Point Social Housing REIT,.L,SOHO.L
+JLP,Jubilee Metals Group,.L,JLP.L
+NUM,Numis Corporation,.L,NUM.L
+JSE,Jadestone Energy Inc,.L,JSE.L
+FCH,Funding Circle Holdings,.L,FCH.L
+SWEF,Starwood European Real Estate Finance Ltd,.L,SWEF.L
+GKP,Gulf Keystone Petroleum Ltd,.L,GKP.L
+BOCH,Bank of Cyprus Holdings,.L,BOCH.L
+TBLD,tinyBuild Inc,.L,TBLD.L
+DWF,DWF Group Ltd,.L,DWF.L
+SAGA,Saga,.L,SAGA.L
+SPEC,Inspecs Group,.L,SPEC.L
+BOOT,Boot (Henry),.L,BOOT.L
+PCGH,Polar Capital Global Healthcare Growth & Income,.L,PCGH.L
+BGUK,Baillie Gifford UK Growth Fund,.L,BGUK.L
+VP.,Vp,.L,VP..L
+PSDL,Phoenix Spree Deutschland Ltd,.L,PSDL.L
+VIC,Victorian Plumbing Group,.L,VIC.L
+MNP,Martin Currie Global Portfolio Trust,.L,MNP.L
+AFC,AFC Energy,.L,AFC.L
+REVB,Revolution Beauty Group,.L,REVB.L
+BPET,BMO Private Equity Trust,.L,BPET.L
+TI1,Trian Investors 1 Ltd,.L,TI1.L
+BCI,BMO Capital and Income Investment Trust,.L,BCI.L
+GENL,Genel Energy,.L,GENL.L
+CNIC,CentralNic Group,.L,CNIC.L
+ANII,Aberdeen New India Investment Trust,.L,ANII.L
+THS,Tharisa,.L,THS.L
+BVC,BATM Advanced Communications Ltd,.L,BVC.L
+HEAD,Headlam Group,.L,HEAD.L
+LWI,Lowland Investment Co,.L,LWI.L
+FEET,Fundsmith Emerging Equities Trust,.L,FEET.L
+RECI,Real Estate Credit Investment PCC Ltd,.L,RECI.L
+AVON,Avon Protection,.L,AVON.L
+LABS,Life Science Reit,.L,LABS.L
+TAM,Tatton Asset Management,.L,TAM.L
+ENQ,EnQuest,.L,ENQ.L
+HEFT,Henderson European Focus Trust,.L,HEFT.L
+EKF,EKF Diagnostics Holdings,.L,EKF.L
+AERS,Aquila European Renewables Income Fund,.L,AERS.L
+KGH,Knights Group Holdings,.L,KGH.L
+RPS,RPS Group,.L,RPS.L
+ACSO,Accesso Technology Group,.L,ACSO.L
+AXS,Accsys Technologies,.L,AXS.L
+PAF,Pan African Resources,.L,PAF.L
+ADT1,Adriatic Metals,.L,ADT1.L
+ABD,Aberdeen New Dawn Investment Trust,.L,ABD.L
+GHE,Gresham House,.L,GHE.L
+KIST,Kistos,.L,KIST.L
+ELIX,Elixirr International,.L,ELIX.L
+SUS,S & U,.L,SUS.L
+ACIC,Abrdn China Investment Company Ltd,.L,ACIC.L
+PRV,Porvair,.L,PRV.L
+APTD,Aptitude Software Group,.L,APTD.L
+FAS,Fidelity Asian Values,.L,FAS.L
+HINT,Henderson International Income Trust,.L,HINT.L
+DVO,Devro,.L,DVO.L
+GSEO,VH Global Sustainable Energy Opportunities,.L,GSEO.L
+HONY,Honeycomb Investment Trust,.L,HONY.L
+SDY,Speedy Hire,.L,SDY.L
+OCN,Ocean Wilson Holdings,.L,OCN.L
+FRP,FRP Advisory Group,.L,FRP.L
+TMIP,Taylor Maritime Investments Ltd,.L,TMIP.L
+SLI,Standard Life Investments Property Inc Trust Ltd,.L,SLI.L
+LSC,London Security,.L,LSC.L
+AVCT,Avacta Group,.L,AVCT.L
+BIPS,Invesco Bond Income Plus Ltd,.L,BIPS.L
+JMF,JPMorgan Mid Cap Investment Trust,.L,JMF.L
+HNE,Henderson EuroTrust,.L,HNE.L
+PMI,Premier Miton Group,.L,PMI.L
+PDG,Pendragon,.L,PDG.L
+JMI,JPMorgan Smaller Companies Investment Trust,.L,JMI.L
+BGLP,Blackstone Loan Financing Ltd,.L,BGLP.L
+ADIG,Aberdeen Diversified Income & Growth Trust,.L,ADIG.L
+PPS,Proton Motor Power Systems,.L,PPS.L
+MMH,Marshall Motor Holdings,.L,MMH.L
+GHH,Gooch & Housego,.L,GHH.L
+IDOX,IDOX,.L,IDOX.L
+SST,Scottish Oriental Smaller Companies Trust,.L,SST.L
+JUSC,JPMorgan US Smaller Companies IT,.L,JUSC.L
+IBT,International Biotechnology Trust,.L,IBT.L
+SOM,Somero Enterprises Inc,.L,SOM.L
+MOTR,Motorpoint Group,.L,MOTR.L
+DLAR,De La Rue,.L,DLAR.L
+CGEO,Georgia Capital,.L,CGEO.L
+JRS,JPMorgan Russian Securities,.L,JRS.L
+FJV,Fidelity Japan Trust,.L,FJV.L
+BMY,Bloomsbury Publishing,.L,BMY.L
+SSIT,Seraphim Space Investment Trust,.L,SSIT.L
+BRCK,Brickability Group,.L,BRCK.L
+IIT,Independent Investment Trust,.L,IIT.L
+DTY,Dignity,.L,DTY.L
+LOK,Lok'nStore Group,.L,LOK.L
+SUPP,Schroder UK Public Private Trust,.L,SUPP.L
+GOG,Go-Ahead Group,.L,GOG.L
+XPS,XPS Pensions Group,.L,XPS.L
+IKA,Ilika,.L,IKA.L
+LGRS,Loungers,.L,LGRS.L
+PBEE,Pensionbee Group,.L,PBEE.L
+TRCS,Tracsis,.L,TRCS.L
+LINV,Lendinvest,.L,LINV.L
+APF,Anglo Pacific Group,.L,APF.L
+NCYT,Novacyt SA,.L,NCYT.L
+IPF,International Personal Finance,.L,IPF.L
+AUGM,Augmentum Fintech,.L,AUGM.L
+SUP,Supreme,.L,SUP.L
+AGL,Angle,.L,AGL.L
+RCDO,Ricardo,.L,RCDO.L
+GTLY,Gateley (Holdings),.L,GTLY.L
+MTU,Montanaro UK Smaller Companies Inv Tr,.L,MTU.L
+MNZS,Menzies (John),.L,MNZS.L
+IQE,IQE,.L,IQE.L
+SRAD,Stelrad Group,.L,SRAD.L
+NRR,NewRiver REIT,.L,NRR.L
+FSTA,Fuller Smith & Turner,.L,FSTA.L
+HYVE,Hyve Group,.L,HYVE.L
+AEP,Anglo-Eastern Plantations,.L,AEP.L
+ECEL,Eurocell,.L,ECEL.L
+CREO,Creo Medical Group,.L,CREO.L
+CAY,Charles Stanley Group,.L,CAY.L
+HTG,Hunting,.L,HTG.L
+CER,Cerillion,.L,CER.L
+SJG,Schroder Japan Growth Fund,.L,SJG.L
+RTWG,RTW Venture Fund Ltd,.L,RTWG.L
+BCN,Bacanora Lithium,.L,BCN.L
+RSE,Riverstone Energy Ltd,.L,RSE.L
+SREI,Schroder Real Estate Investment Trust Ltd,.L,SREI.L
+LTI,Lindsell Train Investment Trust,.L,LTI.L
+RIV,River And Mercantile Group,.L,RIV.L
+JSGI,Jpmorgan Japan Small Cap Growth & Income,.L,JSGI.L
+TIGT,Troy Income & Growth Trust,.L,TIGT.L
+VSL,VPC Specialty Lending Investments,.L,VSL.L
+NCYF,CQS New City High Yield Fund Ltd,.L,NCYF.L
+NXR,Norcros,.L,NXR.L
+LTHM,Latham (James),.L,LTHM.L
+CLIG,City of London Investment Group,.L,CLIG.L
+KEYS,Keystone Law Group,.L,KEYS.L
+LOOK,Lookers,.L,LOOK.L
+K3C,K3 Capital Group,.L,K3C.L
+BRFI,Blackrock Frontiers Investment Trust,.L,BRFI.L
+AMAT,Amati AIM VCT,.L,AMAT.L
+SCP,Schroder UK Mid Cap Fund,.L,SCP.L
+GDWN,Goodwin,.L,GDWN.L
+OIG,Oryx International Growth Fund Ltd,.L,OIG.L
+PEEL,Peel Hunt Ltd,.L,PEEL.L
+VTU,Vertu Motors,.L,VTU.L
+IGR,IG Design Group,.L,IGR.L
+WAND,WANdisco,.L,WAND.L
+SLP,Sylvania Platinum Ltd,.L,SLP.L
+HZM,Horizonte Minerals,.L,HZM.L
+STB,Secure Trust Bank,.L,STB.L
+OAP3,Octopus Apollo VCT 3,.L,OAP3.L
+BMD,Baronsmead Second Venture Trust,.L,BMD.L
+HHV,Hargreave Hale AIM VCT 1,.L,HHV.L
+WATR,Water Intelligence,.L,WATR.L
+REDX,Redx Pharma Ltd,.L,REDX.L
+MCON,Mincon Group,.L,MCON.L
+BGCG,Baillie Gifford China Growth Trust,.L,BGCG.L
+IAT,Invesco Asia Trust,.L,IAT.L
+FNTL,Fintel,.L,FNTL.L
+SDRY,Superdry,.L,SDRY.L
+SAAS,Microlise Group,.L,SAAS.L
+MNL,Manchester & London Investment Trust,.L,MNL.L
+STS,Securities Trust of Scotland,.L,STS.L
+PHTM,Photo-Me International,.L,PHTM.L
+ETX,e-Therapeutics,.L,ETX.L
+PRE,Pensana Rare Earths,.L,PRE.L
+88E,88 Energy Ltd,.L,88E.L
+HHI,Henderson High Income Trust,.L,HHI.L
+BVT,Baronsmead Venture Trust,.L,BVT.L
+NBMI,NB Global Monthly Income Fund Ltd,.L,NBMI.L
+PEBB,The Pebble Group,.L,PEBB.L
+GTE,Gran Tierra Energy Inc,.L,GTE.L
+CHRT,Cohort,.L,CHRT.L
+BOOM,AudioBoom Group,.L,BOOM.L
+IPEL,Impellam Group,.L,IPEL.L
+PTAL,PetroTal Corp,.L,PTAL.L
+TRI,Trifast,.L,TRI.L
+SED,Saietta Group,.L,SED.L
+TPX,TPXimpact Holdings,.L,TPX.L
+TRB,Tribal Group,.L,TRB.L
+TSTL,Tristel,.L,TSTL.L
+MER,Mears Group,.L,MER.L
+MACF,Macfarlane Group,.L,MACF.L
+AGY,Allergy Therapeutics,.L,AGY.L
+BREI,BMO Real Estate Investment Ltd,.L,BREI.L
+SFR,Severfield,.L,SFR.L
+UTL,UIL Ltd,.L,UTL.L
+RSG,Resolute Mining Ltd,.L,RSG.L
+HEIT,Harmony Energy Income Trust,.L,HEIT.L
+MCKS,McKay Securities,.L,MCKS.L
+SCF,Schroder Income Growth Fund,.L,SCF.L
+IPU,Invesco Perpetual UK Smaller Companies Investment Trust,.L,IPU.L
+GFRD,Galliford Try Holdings,.L,GFRD.L
+ANCR,Animalcare Group,.L,ANCR.L
+SAG,Science Group,.L,SAG.L
+SAA,M&C Saatchi,.L,SAA.L
+ASY,Andrews Sykes Group,.L,ASY.L
+CCJI,CC Japan Income & Growth Trust,.L,CCJI.L
+CARD,Card Factory,.L,CARD.L
+BEG,Begbies Traynor Group,.L,BEG.L
+RIII,Rights and Issues Inv Trust,.L,RIII.L
+EGL,Ecofin Global Utilities And Infrustructure Trust,.L,EGL.L
+AIE,Ashoka India Equity Investment Trust,.L,AIE.L
+JARA,JPMorgan Global Core Real Assets Ltd,.L,JARA.L
+ZTF,Zotefoams,.L,ZTF.L
+SEC,Strategic Equity Capital,.L,SEC.L
+BWNG,Brown (N) Group,.L,BWNG.L
+MGP,Medica Group,.L,MGP.L
+BSE,Base Resources Ltd,.L,BSE.L
+INS,Instem Life Science Systems,.L,INS.L
+TMO,Time Out Group,.L,TMO.L
+ANIC,Agronomics Ltd,.L,ANIC.L
+MUL,Mulberry Group,.L,MUL.L
+LORD,Lords Group Trading,.L,LORD.L
+CHH,Churchill China,.L,CHH.L
+CGL,Castelnau Group Ltd,.L,CGL.L
+KPC,Keystone Positive Change Investment Trust,.L,KPC.L
+RCN,Redcentric,.L,RCN.L
+TXP,Touchstone Exploration Inc,.L,TXP.L
+CCRD,Cordiant Digital Infrastructure Ltd,.L,CCRD.L
+TED,Ted Baker,.L,TED.L
+WIL,Wilmington,.L,WIL.L
+SDI,SDI Group,.L,SDI.L
+VTAS,Volta Finance Ltd,.L,VTAS.L
+CAM,Camellia,.L,CAM.L
+RAV,Raven Property Group Ltd,.L,RAV.L
+ACC,Access Intelligence,.L,ACC.L
+RESI,Residential Secure Income,.L,RESI.L
+QTX,Quartix Holdings,.L,QTX.L
+IOG,IOG,.L,IOG.L
+PUR,Pure Gold Mining Inc,.L,PUR.L
+FSJ,Fisher (James) & Sons,.L,FSJ.L
+SMIF,TwentyFour Select Monthly Income Fund Ltd,.L,SMIF.L
+SLE,San Leon Energy,.L,SLE.L
+UPGS,UP Global Sourcing Holdings,.L,UPGS.L
+,FTSE Small Cap entry level = 182.8,.L,.L
+IOM,Iomart Group,.L,IOM.L
+DEV,Dev Clever Holdings,.L,DEV.L
+MMAG,Musicmagpie,.L,MMAG.L
+CBP,Curtis Banks Group,.L,CBP.L
+EPIC,Ediston Property Investment Co,.L,EPIC.L
+AEWU,AEW UK REIT,.L,AEWU.L
+WKOF,Weiss Korea Opportunity Fund Ltd,.L,WKOF.L
+INSE,Inspired Energy,.L,INSE.L
+ARR,Aurora Investment Trust,.L,ARR.L
+BVXP,Bioventix,.L,BVXP.L
+BOOK,Literacy Capital,.L,BOOK.L
+BASC,Brown Advisory US Smaller Companies,.L,BASC.L
+TEG,Ten Entertainment Group,.L,TEG.L
+EYE,Eagle Eye,.L,EYE.L
+PHE,Powerhouse Energy Group,.L,PHE.L
+AQX,Aquis Exchange,.L,AQX.L
+CIR,Circassia Group,.L,CIR.L
+WNWD,Windward Ltd,.L,WNWD.L
+ASEI,Aberdeen Standard Equity Income Trust,.L,ASEI.L
+BLTG,Blancco Technology Group,.L,BLTG.L
+SAR,Sareum Holdings,.L,SAR.L
+GR1T,Grit Real Estate Income Group Ltd,.L,GR1T.L
+AVO,Advanced Oncotherapy,.L,AVO.L
+GFM,Griffin Mining Ltd,.L,GFM.L
+ESYS,Essensys,.L,ESYS.L
+FNX,Fonix Mobile,.L,FNX.L
+REC,Record,.L,REC.L
+DX.,DX Group,.L,DX..L
+GELN,Gelion,.L,GELN.L
+MTEC,Made Tech Group,.L,MTEC.L
+MMIT,Mobius Investment Trust,.L,MMIT.L
+MTRO,Metro Bank,.L,MTRO.L
+ROOF,Atrato Onsite Energy,.L,ROOF.L
+PEMB,Pembroke VCT B,.L,PEMB.L
+SCLP,Scancell Holdings,.L,SCLP.L
+PROC,Procook Group,.L,PROC.L
+BRSA,BlackRock Sustainable American Income Trust,.L,BRSA.L
+CAPD,Capital Ltd,.L,CAPD.L
+ORPH,Open Orphan,.L,ORPH.L
+AJOT,AVI Japan Opportunity Trust,.L,AJOT.L
+GEM,Gemfields Group Ltd,.L,GEM.L
+STVG,STV Group,.L,STVG.L
+RM.,RM,.L,RM..L
+FTV,Foresight VCT,.L,FTV.L
+JOUL,Joules Group,.L,JOUL.L
+MERC,Mercia Asset Management,.L,MERC.L
+TGL,TransGlobe Energy Corp,.L,TGL.L
+HDIV,Henderson Diversified Income Trust,.L,HDIV.L
+CGS,Castings,.L,CGS.L
+OIT,Odyssean Investment Trust,.L,OIT.L
+ANX,Anexo Group,.L,ANX.L
+SUR,Sureserve Group,.L,SUR.L
+ARIX,Arix Bioscience,.L,ARIX.L
+EPWN,Epwin Group,.L,EPWN.L
+ECK,Eckoh,.L,ECK.L
+PPHC,Public Policy Holding Company Inc,.L,PPHC.L
+ASIT,Aberforth Split Level Income Trust,.L,ASIT.L
+NAVF,Nippon Active Value Fund,.L,NAVF.L
+I3E,i3 Energy,.L,I3E.L
+G4M,Gear4music (Holdings),.L,G4M.L
+DUKE,Duke Royalty Ltd,.L,DUKE.L
+SPR,Springfield Properties,.L,SPR.L
+CCPG,CVC Credit Partners European Opportunities Ltd,.L,CCPG.L
+PGOO,ProVen Growth & Income VCT,.L,PGOO.L
+FWD,Forward Partners Group,.L,FWD.L
+LAM,Lamprell,.L,LAM.L
+BGO,Bango,.L,BGO.L
+MORE,Hostmore,.L,MORE.L
+ALL,Atlantic Lithium Ltd,.L,ALL.L
+COST,Costain Group,.L,COST.L
+OMG,Oxford Metrics,.L,OMG.L
+CARR,Carr's Group,.L,CARR.L
+SERE,Schroder European Real Estate Investment Trust Ltd,.L,SERE.L
+FARN,Faron Pharmaceuticals OY,.L,FARN.L
+CBOX,Cake Box Holdings,.L,CBOX.L
+GHT,Gresham Technologies,.L,GHT.L
+ANP,Anpario,.L,ANP.L
+STU,Studio Retail Group,.L,STU.L
+MIND,Mind Gym,.L,MIND.L
+MGCI,M&G Credit Income Investment Trust,.L,MGCI.L
+DORE,Downing Renewables & Infrastructure Trust,.L,DORE.L
+FRAN,Franchise Brands,.L,FRAN.L
+ASAI,ASA International Group,.L,ASAI.L
+XAR,Xaar,.L,XAR.L
+ATS,Artemis Alpha Trust,.L,ATS.L
+AT.,Ashtead Technology Holdings,.L,AT..L
+ADVT,AdvancedAdvT Ltd,.L,ADVT.L
+PDL,Petra Diamonds Ltd,.L,PDL.L
+PGHZ,PCGH ZDP,.L,PGHZ.L
+EGY,VAALCO Energy Inc,.L,EGY.L
+AVG,Avingtrans,.L,AVG.L
+D4T4,D4t4 Solutions,.L,D4T4.L
+ESKN,Esken Ltd,.L,ESKN.L
+CGH,Chaarat Gold Holdings Ltd,.L,CGH.L
+PVN,ProVen VCT,.L,PVN.L
+AFRN,Aferian,.L,AFRN.L
+CCT,Character Group,.L,CCT.L
+IGC,India Capital Growth Fund Ltd,.L,IGC.L
+TPT,Topps Tiles,.L,TPT.L
+BRLA,BlackRock Latin American Investment Trust,.L,BRLA.L
+SENS,Sensyne Health,.L,SENS.L
+SVML,Sovereign Metals Ltd,.L,SVML.L
+HSP,Hargreaves Services,.L,HSP.L
+FIF,Finsbury Food Group,.L,FIF.L
+ASTO,AssetCo,.L,ASTO.L
+FOXT,Foxtons Group,.L,FOXT.L
+AAZ,Anglo Asian Mining,.L,AAZ.L
+HGEN,Hydrogenone Capital Growth,.L,HGEN.L
+BELL,Belluscura,.L,BELL.L
+DPEU,DP Eurasia NV,.L,DPEU.L
+MRK,Marks Electrical Group,.L,MRK.L
+BMN,Bushveld Minerals Ltd,.L,BMN.L
+MCT,Middlefield Canadian Income Trusts Investment Company PCC,.L,MCT.L
+CRPR,Cropper (James),.L,CRPR.L
+FSF,Foresight Sustainable Forestry Company,.L,FSF.L
+DNM,Dianomi,.L,DNM.L
+ARBB,Arbuthnot Banking Group,.L,ARBB.L
+OSEC,Octopus AIM VCT 2,.L,OSEC.L
+PGR,Phoenix Global Resources,.L,PGR.L
+BPM,BP Marsh & Partners,.L,BPM.L
+INL,Inland Homes,.L,INL.L
+SBI,Sourcebio International,.L,SBI.L
+MBH,Michelmersh Brick Holdings,.L,MBH.L
+PCA,Palace Capital,.L,PCA.L
+MAJE,Majedie Investments,.L,MAJE.L
+CMO,CMO Group,.L,CMO.L
+JIM,Jarvis Securities,.L,JIM.L
+ONC,Oncimmune Holdings,.L,ONC.L
+AOM,ActiveOps,.L,AOM.L
+W7L,Warpaint London,.L,W7L.L
+EMH,European Metals Holdings Ltd,.L,EMH.L
+LIT,Litigation Capital Management Ltd,.L,LIT.L
+SDG,Sanderson Design Group,.L,SDG.L
+BSV,British Smaller Companies VCT,.L,BSV.L
+FTF,Foresight 4 VCT,.L,FTF.L
+WYN,Wynnstay Group,.L,WYN.L
+QXT,Quixant,.L,QXT.L
+POLX,Polarean Imaging,.L,POLX.L
+HAN+HANA,Hansa Investment Company Ltd,.L,HAN+HANA.L
+EMAN,Everyman Media Group,.L,EMAN.L
+BERI,BlackRock Energy and Resources Income Trust,.L,BERI.L
+FUL,The Fulham Shore,.L,FUL.L
+VINO,Virgin Wines UK,.L,VINO.L
+SOLI,Solid State,.L,SOLI.L
+EQLS,Equals Group,.L,EQLS.L
+HAT,H&T Group,.L,HAT.L
+HUW,Helios Underwriting,.L,HUW.L
+FUM,Futura Medical,.L,FUM.L
+KOO,Kooth,.L,KOO.L
+BEN,Bens Creek Group,.L,BEN.L
+BIRD,Blackbird,.L,BIRD.L
+RMII,RM Infrastructure Income,.L,RMII.L
+TUN,Tungsten West,.L,TUN.L
+ESO,EPE Special Opportunities Ltd,.L,ESO.L
+PHAR,Pharos Energy,.L,PHAR.L
+AREC,Arecor Therapeutics,.L,AREC.L
+HEIQ,Heiq,.L,HEIQ.L
+IGV,Income and Growth VCT,.L,IGV.L
+NVT,Northern Venture Trust,.L,NVT.L
+NTN,Northern 3 VCT,.L,NTN.L
+HOT,Henderson Opportunities Trust,.L,HOT.L
+ENW,Enwell Energy,.L,ENW.L
+ZOO,Zoo Digital Group,.L,ZOO.L
+MTC,Mothercare,.L,MTC.L
+MANO,Manolete Partners,.L,MANO.L
+EAH,Eco Animal Health Group,.L,EAH.L
+RBGP,RBG Holdings,.L,RBGP.L
+NTV,Northern 2 VCT,.L,NTV.L
+OBI,Ondine Biomedical Inc,.L,OBI.L
+ACRL,Accrol Group Holdings,.L,ACRL.L
+DDV1,Downing One VCT,.L,DDV1.L
+CMCL,Caledonia Mining Corp,.L,CMCL.L
+STAF,Staffline Group,.L,STAF.L
+IES,Invinity Energy Systems,.L,IES.L
+EPG,EP Global Opportunities Trust,.L,EPG.L
+BUMP,Seraphine Group,.L,BUMP.L
+CPC,City Pub Group,.L,CPC.L
+NWF,NWF Group,.L,NWF.L
+AGFX,Argentex Group,.L,AGFX.L
+CLX,Calnex Solutions,.L,CLX.L
+CASP,Caspian Sunrise,.L,CASP.L
+DIA,Dialight,.L,DIA.L
+SCE,Surface Transforms,.L,SCE.L
+NET,Netcall,.L,NET.L
+CYN,CQS Natural Resources Growth & Income,.L,CYN.L
+VNH,Vietnam Holding Ltd,.L,VNH.L
+MCB,McBride,.L,MCB.L
+HSS,HSS Hire Group,.L,HSS.L
+MPAC,Mpac Group,.L,MPAC.L
+NSI,New Star Investment Trust,.L,NSI.L
+EQT,EQTEC,.L,EQT.L
+PGH,Personal Group Holdings,.L,PGH.L
+VLS,Velocys,.L,VLS.L
+ARTL,Alpha Real Trust Ltd,.L,ARTL.L
+VIP,Value & Indexed Property Income Trust,.L,VIP.L
+TEEC,Triple Point Energy Efficiency Infrastructure Company,.L,TEEC.L
+AATG,Albion Technology & General VCT,.L,AATG.L
+NEXS,Nexus Infrastructure,.L,NEXS.L
+MIGO,Migo Opportunities Trust,.L,MIGO.L
+XLM,XLMedia,.L,XLM.L
+STX,Shield Therapeutics,.L,STX.L
+TPFG,Property Franchise Group,.L,TPFG.L
+BKS,Beeks Financial Cloud Group,.L,BKS.L
+KITW,Kitwave Group,.L,KITW.L
+SPE,Sopheon,.L,SPE.L
+LBOW,ICG-Longbow Senior Secured UK Property Debt Investments Ltd,.L,LBOW.L
+STCM,Steppe Cement Ltd,.L,STCM.L
+CIC,Conygar Investment Company,.L,CIC.L
+CAL,Capital & Regional,.L,CAL.L
+CCP,Celtic,.L,CCP.L
+C4XD,C4X Discovery Holdings,.L,C4XD.L
+DNL,Diurnal Group,.L,DNL.L
+MINI,Miton UK Microcap Trust,.L,MINI.L
+DDDD,4D Pharma,.L,DDDD.L
+BLV,Belvoir Group,.L,BLV.L
+AEET,Aquila Energy Efficiency Trust,.L,AEET.L
+SNWS,Smiths News,.L,SNWS.L
+MIX,Mobeus Income & Growth VCT,.L,MIX.L
+CRS,Crystal Amber Fund Ltd,.L,CRS.L
+DCTA,Directa Plus,.L,DCTA.L
+FAR,Ferro-Alloys Resources Ltd,.L,FAR.L
+KAY,Kings Arms Yard VCT,.L,KAY.L
+AJIT,Aberdeen Japan Investment Trust,.L,AJIT.L
+BEM,Beowulf Mining,.L,BEM.L
+ETP,Eneraqua Technologies,.L,ETP.L
+APTA,Aptamer Group,.L,APTA.L
+BEMO,Baring Emerging EMEA Opportunities,.L,BEMO.L
+YGEN,Yourgene Health,.L,YGEN.L
+THX,Thor Explorations Ltd,.L,THX.L
+SIS,Science In Sport Ltd,.L,SIS.L
+GMR,Gaming Realms,.L,GMR.L
+LIKE,Likewise Group,.L,LIKE.L
+AAEV,Albion Enterprise VCT,.L,AAEV.L
+AADV,Albion Development VCT,.L,AADV.L
+JZCP,JZ Capital Partners Ltd,.L,JZCP.L
+TRR,Trident Royalties,.L,TRR.L
+ZPHR,Zephyr Energy,.L,ZPHR.L
+LDG,Logistics Development Group,.L,LDG.L
+MHN,Menhaden,.L,MHN.L
+SBSI,Schroder Bsc Social Impact Trust,.L,SBSI.L
+JAY,Bluejay Mining,.L,JAY.L
+OTMP,OnTheMarket,.L,OTMP.L
+RBW,Rainbow Rare Earths Ltd,.L,RBW.L
+RMMC,River And Mercantile UK Micro Cap Investment Co Ltd,.L,RMMC.L
+CBA,Ceiba Investments Ltd,.L,CBA.L
+DFCH,Distribution Finance Capital Holdings,.L,DFCH.L
+AXI,Axiom European Financial Debt Ltd,.L,AXI.L
+SCS,SCS Group,.L,SCS.L
+BMS,Braemar Shipping Services,.L,BMS.L
+MATE,JPMorgan Multi-Asset Trust,.L,MATE.L
+PMP,Portmeirion Group,.L,PMP.L
+FEN,Frenkel Topping Group,.L,FEN.L
+IHC,Inspiration Healthcare Group,.L,IHC.L
+RAI,RA International Group,.L,RAI.L
+DXRX,Diaceutics,.L,DXRX.L
+ALU,Alumasc Group,.L,ALU.L
+DNE,Dunedin Enterprise Investment Trust,.L,DNE.L
+SHG,Shanta Gold Ltd,.L,SHG.L
+DEVC,Draper Esprit VCT,.L,DEVC.L
+FLO,Flowtech Fluidpower,.L,FLO.L
+ASCI,Aberdeen Smaller Companies Income Trust,.L,ASCI.L
+SHRS,Shires Income,.L,SHRS.L
+CAU,Centaur Media,.L,CAU.L
+BSC,British Smaller Companies VCT 2,.L,BSC.L
+DWHA,Dewhurst,.L,DWHA.L
+DWHT,Dewhurst,.L,DWHT.L
+WBI,Woodbois Ltd,.L,WBI.L
+CTA,CT Automotive Group,.L,CTA.L
+HSW,Hostelworld Group,.L,HSW.L
+SBO,Schroder British Opportunities Trust,.L,SBO.L
+LIV,Livermore Investments Group Ltd,.L,LIV.L
+KBT,K3 Business Technology Group,.L,KBT.L
+BSRT,Baker Steel Resources Trust Ltd,.L,BSRT.L
+MIRI,Mirriad Advertising,.L,MIRI.L
+MIG4,Mobeus Income & Growth 4 VCT,.L,MIG4.L
+GSP,Gensource Potash Corp,.L,GSP.L
+TENG,Ten Lifestyle Group,.L,TENG.L
+EJFI,EJF Investments Ltd,.L,EJFI.L
+GPH,Global Ports Holding,.L,GPH.L
+SYME,Supply@Me Capital,.L,SYME.L
+MCL,Morses Club,.L,MCL.L
+NWOR,National World,.L,NWOR.L
+FIN,Finablr,.L,FIN.L
+MAV4,Maven Income & Growth VCT4,.L,MAV4.L
+BHI,BMO UK High Income Trust,.L,BHI.L
+ELCO,Eleco,.L,ELCO.L
+CUSN,Cornish Metals Inc,.L,CUSN.L
+4BB,4basebio,.L,4BB.L
+HUR,Hurricane Energy,.L,HUR.L
+TRLS,Trellus Health,.L,TRLS.L
+IQG,IQGEO Group,.L,IQG.L
+PURP,Purplebricks Group,.L,PURP.L
+TGR,Tirupati Graphite,.L,TGR.L
+SAV,Savannah Resources,.L,SAV.L
+TOWN,Town Centre Securities,.L,TOWN.L
+VRCI,Verici Dx,.L,VRCI.L
+JEL,Jersey Electricity Company Ltd,.L,JEL.L
+RLE,Real Estate Investors,.L,RLE.L
+MEX,Tortilla Mexican Grill,.L,MEX.L
+CRWN,Crown Place VCT,.L,CRWN.L
+SFE,SafeStyle UK Ltd,.L,SFE.L
+MJH,MJ Hudson Group,.L,MJH.L
+ALS,Altus Strategies,.L,ALS.L
+JKX,JKX Oil & Gas,.L,JKX.L
+GEMD,Gem Diamonds Ltd,.L,GEMD.L
+OKYO,OKYO Pharma Corp,.L,OKYO.L
+HRN,Hornby,.L,HRN.L
+FOG,Falcon Oil & Gas Ltd,.L,FOG.L
+KMK,Kromek Group,.L,KMK.L
+RNO,Renold,.L,RNO.L
+ART,The Artisanal Spirits Company,.L,ART.L
+SPSY,Spectra Systems Corp,.L,SPSY.L
+SPSC,Spectra Systems Corp,.L,SPSC.L
+CTO,TClarke,.L,CTO.L
+MWE,MTI Wireless Edge Ltd,.L,MWE.L
+GRIO,Ground Rents Income Fund,.L,GRIO.L
+CML,CML Microsystems,.L,CML.L
+HSD,Hansard Global,.L,HSD.L
+ARE,Arena Events Group,.L,ARE.L
+EML,Emmerson,.L,EML.L
+MVI,Marwyn Value Investors Ltd,.L,MVI.L
+SBTX,SkinBioTherapeutics,.L,SBTX.L
+XPD,Xpediator,.L,XPD.L
+MKA,Mkango Resources Ltd,.L,MKA.L
+SOS,Sosandar,.L,SOS.L
+MIG5,Maven Income & Growth VCT 5,.L,MIG5.L
+ATM,AfriTin Mining Ltd,.L,ATM.L
+TRU,TruFin,.L,TRU.L
+PXC,Phoenix Copper Ltd,.L,PXC.L
+TLY,Totally,.L,TLY.L
+DEST,Destiny Pharma,.L,DEST.L
+ATQT,Attraqt Group Ltd,.L,ATQT.L
+NBDG,NB Distressed Debt Investment Fund Ltd,.L,NBDG.L
+CNS,Corero Network Security,.L,CNS.L
+AEXG,Aex Gold Inc,.L,AEXG.L
+SRT,SRT Marine Systems,.L,SRT.L
+MAVT,Momentum Multi-Asset Value Trust,.L,MAVT.L
+SMJ,J Smart & Co Contractors,.L,SMJ.L
+TRIN,Trinity Exploration and Production,.L,TRIN.L
+AVAP,Avation,.L,AVAP.L
+VARE,Various Eateries,.L,VARE.L
+CRC,Circle Property,.L,CRC.L
+JEFI,Jupiter Emerging & Frontier Income Trust,.L,JEFI.L
+CRL,Creightons,.L,CRL.L
+AURA,Aura Energy Ltd,.L,AURA.L
+MIG1,Maven Income & Growth VCT,.L,MIG1.L
+SCRF,SME Credit Realisation Fund Ltd,.L,SCRF.L
+HUM,Hummingbird Resources,.L,HUM.L
+NANO,Nanoco Group,.L,NANO.L
+GMS,Gulf Marine Services,.L,GMS.L
+JGC,Jupiter Green Investment Trust,.L,JGC.L
+AIRE,Alternative Income REIT,.L,AIRE.L
+FCAP,finnCap Group,.L,FCAP.L
+TMG,The Mission Group,.L,TMG.L
+GCL,Geiger Counter Ltd,.L,GCL.L
+VRS,Versarien,.L,VRS.L
+RMM,Rambler Metals and Mining,.L,RMM.L
+CNC,Concurrent Technologies,.L,CNC.L
+CIN,City of London Group,.L,CIN.L
+TSL,ThinkSmart Ltd,.L,TSL.L
+AIR,Air Partner,.L,AIR.L
+EXR,Engage Xr Holdings,.L,EXR.L
+SHOE,Shoe Zone,.L,SHOE.L
+BMPI,BMO Managed Portfolio Trust,.L,BMPI.L
+RE.,R.E.A. Holdings,.L,RE..L
+ADT,AdEPT Technology Group,.L,ADT.L
+FIPP,Frontier IP Group,.L,FIPP.L
+MXC,MGC Pharmaceuticals Ltd,.L,MXC.L
+KWG,Kingswood Holdings Ltd,.L,KWG.L
+BOTB,Best of the Best,.L,BOTB.L
+CKT,Checkit,.L,CKT.L
+ALM,Allied Minds,.L,ALM.L
+GRL,GoldStone Resources Ltd,.L,GRL.L
+CHAR,Chariot Oil & Gas Ltd,.L,CHAR.L
+INHC,Induction Healthcare Group,.L,INHC.L
+RBG,Revolution Bars Group,.L,RBG.L
+DVRG,DeepVerge,.L,DVRG.L
+SPA,1Spatial Holdings,.L,SPA.L
+MAI,Maintel Holdings,.L,MAI.L
+ARS,Asiamet Resources Ltd,.L,ARS.L
+RFX,Ramsdens Holdings,.L,RFX.L
+ULS,ULS Technology,.L,ULS.L
+MYSL,MySale Group,.L,MYSL.L
+CYAN,Cyanconnode Holdings,.L,CYAN.L
+SYS1,System1 Group,.L,SYS1.L
+AMTE,Amte Power,.L,AMTE.L
+TUNG,Tungsten Corp,.L,TUNG.L
+CFX,Colefax Group,.L,CFX.L
+AAVC,Albion Venture Capital Trust,.L,AAVC.L
+KOD,Kodal Minerals,.L,KOD.L
+INSG,Insig AI,.L,INSG.L
+VANL,Van Elle Holdings,.L,VANL.L
+AFRK,Afarak Group,.L,AFRK.L
+SMD,Spectral MD Holdings Ltd,.L,SMD.L
+RKW,Rockwood Realisation,.L,RKW.L
+KNB,Kanabo Group,.L,KNB.L
+ITS,In The Style Group,.L,ITS.L
+NBI,Northbridge Industrial Services,.L,NBI.L
+LLAI,Lunglife Ai Inc,.L,LLAI.L
+PNS,Panther Securities,.L,PNS.L
+RENE,ReNeuron Group,.L,RENE.L
+POLB,Poolbeg Pharma,.L,POLB.L
+AAU,Ariana Resources,.L,AAU.L
+QRT,Quarto Group Inc,.L,QRT.L
+TERN,Tern,.L,TERN.L
+EAAS,eEnergy Group,.L,EAAS.L
+,FTSE Small Cap exit level = 45.7,.L,.L
+PMG,Parkmead Group,.L,PMG.L
+ODX,Omega Diagnostics Group,.L,ODX.L
+MIG3,Maven Income & Growth VCT 3,.L,MIG3.L
+OPG,OPG Power Ventures,.L,OPG.L
+GUS,Gusbourne,.L,GUS.L
+KRPZ,Kropz,.L,KRPZ.L
+CNR,Condor Gold,.L,CNR.L
+HCFT,Highcroft Investments,.L,HCFT.L
+JOG,Jersey Oil and Gas,.L,JOG.L
+APP,Appreciate Group,.L,APP.L
+XPF,Xp Factory,.L,XPF.L
+CNKS,Cenkos Securities,.L,CNKS.L
+LIB,Libertine Holdings,.L,LIB.L
+G3E,G3 Exploration Ltd,.L,G3E.L
+ADV,Advance Energy,.L,ADV.L
+TEK,Tekcapital,.L,TEK.L
+SDV,Chelverton UK Dividend Trust,.L,SDV.L
+IGP,Intercede Group,.L,IGP.L
+SRB,Serabi Gold,.L,SRB.L
+SGZ,Scotgold Resources Ltd,.L,SGZ.L
+BIDS,Bidstack Group,.L,BIDS.L
+SLFR,SLF Realisation Fund Ltd,.L,SLFR.L
+WEN,Wentworth Resources Ltd,.L,WEN.L
+ANG,Angling Direct,.L,ANG.L
+HE1,Helium One Global Ltd,.L,HE1.L
+ASLR,Asimilar Group,.L,ASLR.L
+GATC,Gattaca,.L,GATC.L
+XTR,Xtract Resources,.L,XTR.L
+ZNWD,Zinnwald Lithium,.L,ZNWD.L
+PPC,President Energy,.L,PPC.L
+SYM,Symphony Environmental Technologies,.L,SYM.L
+BBB,Bigblu Broadband,.L,BBB.L
+EBQ,Ebiquity,.L,EBQ.L
+IUG,Intelligent Ultrasound Group,.L,IUG.L
+EMR,Empresaria Group,.L,EMR.L
+ABDX,Abingdon Health,.L,ABDX.L
+BRIG,Blackrock Income & Growth Investment Trust,.L,BRIG.L
+THRU,Thruvision Group,.L,THRU.L
+PTR,Petroneft Resources,.L,PTR.L
+EME,Empyrean Energy,.L,EME.L
+WCAT,Wildcat Petroleum,.L,WCAT.L
+GOOD,Good Energy Group,.L,GOOD.L
+ECO,Eco (Atlantic) Oil & Gas Ltd,.L,ECO.L
+COG,Cambridge Cognition Holdings,.L,COG.L
+DCI,Dolphin Capital Investors Ltd,.L,DCI.L
+GDR,Genedrive,.L,GDR.L
+TM1,Technology Minerals,.L,TM1.L
+OBD,Oxford BioDynamics,.L,OBD.L
+DPP,DP Poland,.L,DPP.L
+OPTI,OptiBiotix Health,.L,OPTI.L
+SGEM,ScotGems,.L,SGEM.L
+VLG,Venture Life Group,.L,VLG.L
+SPO,Sportech,.L,SPO.L
+TRX,Tissue Regenix Group,.L,TRX.L
+CALL,Cloudcall Group,.L,CALL.L
+PCIP,PCI-PAL,.L,PCIP.L
+KDNC,Cadence Minerals,.L,KDNC.L
+FLTA,Filta Group Holdings,.L,FLTA.L
+PREM,Premier African Minerals Ltd,.L,PREM.L
+PU13,Puma VCT 13,.L,PU13.L
+YU.,Yu Group,.L,YU..L
+TPG,TP Group,.L,TPG.L
+GRC,GRC International Group,.L,GRC.L
+GPM,Golden Prospect Precious Metals Ltd,.L,GPM.L
+WSE,Work Service SA,.L,WSE.L
+ITIM,Itim Group,.L,ITIM.L
+DSM,Downing Strategic Micro-Cap Investment Trust,.L,DSM.L
+FPO,First Property Group,.L,FPO.L
+NGHT,Nightcap,.L,NGHT.L
+LBE,Longboat Energy,.L,LBE.L
+GFIN,Gfinity,.L,GFIN.L
+RKH,Rockhopper Exploration,.L,RKH.L
+PMGR,Premier Miton Global Renewables Trust,.L,PMGR.L
+SOU,Sound Energy,.L,SOU.L
+GST,GSTechnologies Ltd,.L,GST.L
+QFI,Quadrise Fuels International,.L,QFI.L
+MSI,MS International,.L,MSI.L
+IOF,Iofina,.L,IOF.L
+MTR,Metal Tiger,.L,MTR.L
+CBX,Cellular Goods,.L,CBX.L
+WRKS,TheWorks.co.uk,.L,WRKS.L
+CHLL,Chill Brands Group,.L,CHLL.L
+GEEC,Great Eastern Energy Corp,.L,GEEC.L
+GETB,GetBusy,.L,GETB.L
+SKL,Skillcast Group,.L,SKL.L
+D4G,Downing Four VCT Generalist,.L,D4G.L
+BMTO,Braime (T F & J H) (Holdings),.L,BMTO.L
+BMT,Braime (T F & J H) (Holdings),.L,BMT.L
+MCLS,McColl's Retail Group Ltd,.L,MCLS.L
+CPX,CAP-XX Ltd,.L,CPX.L
+DELT,Deltic Energy,.L,DELT.L
+SBDS,Silver Bullet Data Services Group,.L,SBDS.L
+UHS,Umuthi Healthcare Solutions,.L,UHS.L
+VLE,Volvere,.L,VLE.L
+AET,Afentra,.L,AET.L
+ZOL,Zoltav Resources Inc,.L,ZOL.L
+GLAN,Glantus Holdings,.L,GLAN.L
+BKY,Berkeley Energia Ltd,.L,BKY.L
+EISB,East Imperial,.L,EISB.L
+CPP,CPP Group,.L,CPP.L
+ALTN,Altyn,.L,ALTN.L
+ENET,Ethernity Networks Ltd,.L,ENET.L
+PHC,Plant Health Care,.L,PHC.L
+GENI,Genincode,.L,GENI.L
+HAYD,Haydale Graphene Industries,.L,HAYD.L
+LST,Light Science Technologies Holdings,.L,LST.L
+BILN,Billington Holdings,.L,BILN.L
+TND,Tandem Group,.L,TND.L
+WHI,WH Ireland Group,.L,WHI.L
+UNG,Universe Group,.L,UNG.L
+HARL,Harland & Wolff Group Holdings,.L,HARL.L
+MTL,Metals Exploration,.L,MTL.L
+SUH,Sutton Harbour Group,.L,SUH.L
+OMI,Orosur Mining Inc,.L,OMI.L
+SLFX,SLF Realisation Fund Ltd C Shares NPV,.L,SLFX.L
+ITX,Itaconix,.L,ITX.L
+MPO,Macau Property Opportunities Fund Ltd,.L,MPO.L
+FAB,Fusion Antibodies,.L,FAB.L
+LMS,LMS Capital,.L,LMS.L
+EDEN,Eden Research,.L,EDEN.L
