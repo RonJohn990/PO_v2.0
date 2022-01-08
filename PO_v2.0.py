@@ -426,7 +426,7 @@ elif page == 'Page 2':
     tmp_fig = distribution_fitting(df_returns[ticker], opt)
     fig = go.Figure()
     fig.add_trace(go.Histogram(x = df_returns[ticker], name = ticker, histnorm = 'probability density'))
-    fig.add_trace(go.Scatter(x = tmp_fig[0], y = tmp_fig[1]))
+    fig.add_trace(go.Scatter(x = tmp_fig[0], y = tmp_fig[1], name = opt))
 
     col_dis1, col_dis2 = st.columns(2)
     col_dist2.write(f.fitted_param[opt])
