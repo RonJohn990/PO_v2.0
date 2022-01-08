@@ -12,6 +12,8 @@ from pandas.tseries.offsets import MonthEnd
 import matplotlib.pyplot as plt
 from matplotlib import style
 from forex_python.converter import CurrencyRates
+from fitter import Fitter, get_common_distributions, get_distributions
+from scipy.stats import norm, t, nct, beta
 
 st.set_page_config(
      page_title="Portfolio Analysis",
@@ -41,6 +43,9 @@ N = 6000
 # Risk-free rate -------------------------------------------------------------------------------------------- 
 RF = 0.02
 
+# Creating a Date Range-----------------------------------------------------------------------
+date = st.sidebar.date_input(label = 'Year', value = dt.datetime(2021, 1, 6))
+
 # Currency choice---------------------------------------------------------------------------
 currency_opt = st.sidebar.selectbox('Currency Type', options = ['INR', 'USD', 'GBP'])
 
@@ -68,8 +73,7 @@ ticker_selection_crypto = st.sidebar.multiselect("Entity Name", options = ticker
 
 ticker_selection = ticker_selection_bse + ticker_selection_sp + ticker_selection_crypto + ticker_selection_ftse
 
-# Creating a Date Range-----------------------------------------------------------------------
-date = st.sidebar.date_input(label = 'Year', value = dt.datetime(2021, 1, 6))
+
 
 # Downloading Data from Yahooo Finance---------------------------------------------------------------------------
 @st.cache
@@ -84,6 +88,7 @@ def market_data(tickers, dt):
 df_1 = market_data(ticker_selection, date)
 
 # Performig the currency converison --------------------------------------------------------------------------
+@st.cache
 def currency_conversion(currency = 'INR'):
     df_sp_crypto = df_1[ticker_selection_sp + ticker_selection_crypto]
     df_ftse = df_1[ticker_selection_ftse]
@@ -105,7 +110,7 @@ def currency_conversion(currency = 'INR'):
 
     return(df_tmp_all_ticker)
 
-
+df_1 = currency_conversion(currency_opt)
 
 
 if page == 'Page 1':
@@ -114,8 +119,6 @@ if page == 'Page 1':
     tab1, tab2, tab3 = st.columns(3)
 
     # Displaying Ticker Selection Data with an Expander----------------------------------------------------------
-    # df_1 = market_data(ticker_selection, date)
-    df_1 = currency_conversion(currency_opt)
     stick_data_expander = st.expander('Display Data')
     stick_data_expander.write(df_1)
 
@@ -147,11 +150,23 @@ if page == 'Page 1':
         plt.plot(df_1)
         plt.legend(ticker_selection)
         st.subheader('Line Chart')
-        st.line_chart(df_1)
+        fig_line = go.Figure()
+        for ticker in ticker_selection:
+            fig_line.add_trace(go.Scatter(x = df_1.index, y = df_1[ticker], name = ticker))
+        
+        st.plotly_chart(fig_line)
+        
 
         ## Histograms and PCT change line chart
         st.subheader('PCT change Line Chart')
-        st.line_chart(df_returns)
+
+        fig_pct = go.Figure()
+        for ticker in ticker_selection:
+            fig_pct.add_trace(go.Scatter(x = df_1.index, y = df_returns[ticker], name = ticker))
+        
+        st.plotly_chart(fig_pct)
+     
+
 
         hist_data = (df_returns.to_numpy()).T
         group_labels = df_returns.columns
@@ -165,7 +180,7 @@ if page == 'Page 1':
             fig.add_trace(go.Histogram(x = df_returns[ticker], name = ticker))
             fig.update_layout(barmode = 'overlay')
             fig.update_traces(opacity = 0.6)
-        # fig = px.histogram(df_returns, nbins = 150, opacity = 0.6)
+      
         st.plotly_chart(fig)
 
     #####################################################################################################################
@@ -357,7 +372,68 @@ if page == 'Page 1':
 
 
 elif page == 'Page 2':
-    st.write('Test 2')
+    st.title('Risk Metrics')
+    ticker = st.selectbox(label = 'Select Ticker', options = ticker_selection)
+
+    # Selecting either Regualar percent change or Log change-------------------------------------------------------
+    ret1,ret2 = st.columns(2)
+    if ret1.checkbox('Percentage Change', value = True):
+        df_returns_pct = df_1.pct_change()
+        df_returns_pct = df_returns_pct.dropna()
+        df_returns_pct = df_returns_pct.replace(np.Inf, -1)
+        df_returns = df_returns_pct
+
+    if ret2.checkbox('Log Change'):
+        def log_change(data):
+            ret = np.diff(np.log(data))
+            return ret
+        df_returns = pd.DataFrame()
+        df_returns = df_1.apply(log_change)
+        df_returns.index = df_1.index[1:]
+
+    # Fitting the distribution to data------------------------------------------------------------------------------
+    f = Fitter(data = df_returns[ticker], distributions = ['norm', 't', 'nct', 'beta'])
+
+    # distribution fitting
+    def distribution_fitting(data, dist = 'nct'):
+
+        x_quantile = np.linspace(np.min(data), np.max(data), len(data))
+
+        if dist == 'norm':
+            param = f.fitted_param[dist]
+            a_tmp = norm.pdf(x_quantile, loc = param[0], scale = param[1])
+        
+        elif dist == 't':
+            param = f.fitted_param[dist]
+            a_tmp = t.pdf(x_quantile, param[0], param[1], param[2])
+
+        elif dist == 'nct':
+            param = f.fitted_param[dist]
+            a_tmp = nct.pdf(x_quantile, param[0], param[1], param[2], param[3])
+        
+        elif dist == 'beta':
+            param = f.fitted_param[dist]
+            a_tmp = beta.pdf(x_quantile, param[0], param[1], param[2], param[3])
+        
+        return x_quantile, a_tmp
+        
+    f.fit()
+    col_dist1, col_dist2 = st.columns(2)
+    col_dist1.write(f.summary())
+    opt = col_dist2.selectbox("Distribution Choices", ['norm', 't', 'nct', 'beta'])
+
+    # Plotly Plot of histogram and fitted distribution ---------------------------------------------------------------------
+    tmp_fig = distribution_fitting(df_returns[ticker], opt)
+    fig = go.Figure()
+    fig.add_trace(go.Histogram(x = df_returns[ticker], name = ticker, histnorm = 'probability density'))
+    fig.add_trace(go.Scatter(x = tmp_fig[0], y = tmp_fig[1]))
+
+    col_dis1, col_dis2 = st.columns(2)
+    col_dist2.write(f.fitted_param[opt])
+    col_dist1.plotly_chart(fig)
+
+
+
 
 
 elif page == 'Page 3':

@@ -8,3 +8,5 @@ scipy
 datetime
 matplotlib
 forex-python
+fitter
+scipy
