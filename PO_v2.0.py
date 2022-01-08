@@ -408,51 +408,40 @@ elif page == 'Page 2':
     st.title('Risk Metrics')
     ticker = st.selectbox(label = 'Select Ticker', options = ticker_selection)
 
-    # # Selecting either Regualar percent change or Log change-------------------------------------------------------
-    # ret1,ret2 = st.columns(2)
-    # if ret1.checkbox('Percentage Change', value = True):
-    #     df_returns_pct = df_1.pct_change()
-    #     df_returns_pct = df_returns_pct.dropna()
-    #     df_returns_pct = df_returns_pct.replace(np.Inf, -1)
-    #     df_returns = df_returns_pct
-
-    # if ret2.checkbox('Log Change'):
-    #     def log_change(data):
-    #         ret = np.diff(np.log(data))
-    #         return ret
-    #     df_returns = pd.DataFrame()
-    #     df_returns = df_1.apply(log_change)
-    #     df_returns.index = df_1.index[1:]
-
     # Fitting the distribution to data------------------------------------------------------------------------------
     f = Fitter(data = df_returns[ticker], distributions = ['norm', 't', 'nct', 'beta'])
 
     # distribution fitting
-    def distribution_fitting(data, dist = 'nct'):
+    def distribution_fitting(data, dist = 'nct', conf_interval = 0.99):
 
         x_quantile = np.linspace(np.min(data), np.max(data), len(data))
+        var_historic = np.quantile(data, (1 - conf_interval))
 
         if dist == 'norm':
             param = f.fitted_param[dist]
             param_df = pd.DataFrame(param, index = ['Mean', 'Std Deviation'], columns = ['Paramaeters'])
             a_tmp = norm.pdf(x_quantile, loc = param[0], scale = param[1])
+            var_parametric = norm.ppf(1 - conf_interval, loc = param[0], scale = param[1])
         
         elif dist == 't':
             param = f.fitted_param[dist]
             param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis'], columns = ['Paramaeters'])
             a_tmp = t.pdf(x_quantile, param[0], param[1], param[2])
+            var_parametric = t.ppf(1 - conf_interval, param[0], param[1], param[2])
 
         elif dist == 'nct':
             param = f.fitted_param[dist]
             param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis', 'Skewness'], columns = ['Paramaeters'])
             a_tmp = nct.pdf(x_quantile, param[0], param[1], param[2], param[3])
+            var_parametric = nct.ppf(1 - conf_interval, param[0], param[1], param[2], param[3])
         
         elif dist == 'beta':
             param = f.fitted_param[dist]
-            param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis', 'Skewness'], columns = ['Paramaeters (TO BE FIXED)'])
+            param_df = pd.DataFrame(param, index = ['Alpha', 'Beta', 'Location', 'Scale'], columns = ['Paramaeters'])
             a_tmp = beta.pdf(x_quantile, param[0], param[1], param[2], param[3])
+            var_parametric = beta.ppf(1 - conf_interval, param[0], param[1], param[2], param[3])
         
-        return x_quantile, a_tmp, param_df
+        return x_quantile, a_tmp, param_df, var_historic, var_parametric
         
     f.fit()
 
@@ -464,19 +453,53 @@ elif page == 'Page 2':
     col_dist3.write(distribution_fitting(df_returns[ticker], opt)[2])
     # col_dist3.table(f.fitted_param[opt])
 
+    var_historic = distribution_fitting(df_returns[ticker], opt)[3]
+    var_parametric = distribution_fitting(df_returns[ticker], opt)[4]
+
     # Plotly Plot of histogram and fitted distribution ---------------------------------------------------------------------
     tmp_fig = distribution_fitting(df_returns[ticker], opt)
     fig = go.Figure()
     fig.add_trace(go.Histogram(x = df_returns[ticker], name = ticker, histnorm = 'probability density'))
     fig.add_trace(go.Scatter(x = tmp_fig[0], y = tmp_fig[1], name = opt))
 
-    
     st.plotly_chart(fig)
 
+    #st.metric(label = VaR Historc, value = )
+
+    conf, var1, var2,  = st.columns(3)
+    conf_interval = conf.slider(label = 'Confidence Interval', min_value = 0.50, max_value = 0.99, step = 0.01)
+    var1.metric(label = "VaR Historic", value = f"{np.round(distribution_fitting(df_returns[ticker], opt, conf_interval)[3], 4) * -100}%")
+    var2.metric(label = "VaR Parametric", value = f"{np.round(distribution_fitting(df_returns[ticker], opt, conf_interval)[4], 4) * -100}%")
 
 
+    st.title("Black Scholes Merton Framework to Estimate Price Fluctuations")
 
+    def bsm_estimation_price(data, data2, T = 5, change = 10):
+        # r = 0.02 * T
+        r = (np.mean(data2)) * T
+        if r < 0:
+            r = 0
+        else:
+            r = r
+        # sigma = 0.15 * T
+        sigma = (np.std(data2)) * T
 
+        K = data[-1]
+        S = K * (1 + (change/100))
+
+        d1 = (sigma * np.sqrt(T)) ** -1 * ((np.log(S/K)) + (r + 0.5 * sigma ** 2) * T)
+        d2 = d1 - sigma * np.sqrt(T)
+
+        d1 = norm.pdf(d1, r,sigma) * 100
+        d2 = norm.pdf(d2, r,sigma) * 100
+
+        return d1, d2, r, sigma
+
+    bsm1, bsm2, bsm3 = st.columns(3)
+    price_change = st.slider(label = "Percent Increase in Close Price", min_value = 5, max_value = 100, value = 5, step = 5)
+    t = st.slider(label = "Time Frame (Days)", min_value = 5, max_value = 252, value = 10, step = 5)
+
+    st.table(data = bsm_estimation_price(df_1[ticker], df_returns[ticker], T = t, change = price_change))
 
 elif page == 'Page 3':
     st.write('Test 3')    
