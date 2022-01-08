@@ -1,3 +1,4 @@
+from numpy.random.mtrand import sample
 from pandas.core.dtypes.missing import notnull
 import streamlit as st
 import pandas as pd
@@ -49,6 +50,10 @@ date = st.sidebar.date_input(label = 'Year', value = dt.datetime(2021, 1, 6))
 # Currency choice---------------------------------------------------------------------------
 currency_opt = st.sidebar.selectbox('Currency Type', options = ['INR', 'USD', 'GBP'])
 
+# Choice of PCT or Log difference of prices---Ln 95------------------------------------------------------------
+diff_choice = st.sidebar.selectbox('Select Price Change Metric' , ['Log Change', 'Percent Change'])
+
+
 # Ticker Lists and Sidebar---------------------------------------------------------------------------
 tickerBSE = pd.read_csv('./data/BSE_Company_List.csv')
 tickerBSE = tickerBSE.Symbol.to_list()
@@ -87,6 +92,21 @@ def market_data(tickers, dt):
 
 df_1 = market_data(ticker_selection, date)
 
+if diff_choice == 'Percent Change':
+    df_returns_pct = df_1.pct_change()
+    df_returns_pct = df_returns_pct.dropna()
+    df_returns_pct = df_returns_pct.replace(np.Inf, -1)
+    df_returns = df_returns_pct
+
+# if st.sidebar.checkbox('Log Change'):
+elif diff_choice == 'Log Change':    
+    def log_change(data):
+        ret = np.diff(np.log(data))
+        return ret
+    df_returns = pd.DataFrame()
+    df_returns = df_1.apply(log_change)
+    df_returns.index = df_1.index[1:]
+
 # Performig the currency converison --------------------------------------------------------------------------
 @st.cache
 def currency_conversion(currency = 'INR'):
@@ -122,21 +142,24 @@ if page == 'Page 1':
     stick_data_expander = st.expander('Display Data')
     stick_data_expander.write(df_1)
 
+ 
     # Selecting either Regualar percent change or Log change-------------------------------------------------------
-    ret1,ret2 = st.columns(2)
-    if ret1.checkbox('Percentage Change', value = True):
-        df_returns_pct = df_1.pct_change()
-        df_returns_pct = df_returns_pct.dropna()
-        df_returns_pct = df_returns_pct.replace(np.Inf, -1)
-        df_returns = df_returns_pct
+    # ret1,ret2 = st.columns(2)
+    # if st.sidebar.checkbox('Percentage Change', value = True):
+    # if diff_choice == 'Percentage Change':
+    #     df_returns_pct = df_1.pct_change()
+    #     df_returns_pct = df_returns_pct.dropna()
+    #     df_returns_pct = df_returns_pct.replace(np.Inf, -1)
+    #     df_returns = df_returns_pct
 
-    if ret2.checkbox('Log Change'):
-        def log_change(data):
-            ret = np.diff(np.log(data))
-            return ret
-        df_returns = pd.DataFrame()
-        df_returns = df_1.apply(log_change)
-        df_returns.index = df_1.index[1:]
+    # # if st.sidebar.checkbox('Log Change'):
+    # if diff_choice == 'Log Change':    
+    #     def log_change(data):
+    #         ret = np.diff(np.log(data))
+    #         return ret
+    #     df_returns = pd.DataFrame()
+    #     df_returns = df_1.apply(log_change)
+    #     df_returns.index = df_1.index[1:]
 
 
 
@@ -358,16 +381,26 @@ if page == 'Page 1':
 
     ######################################################################################################################
 
-
+    choice = st.sidebar.selectbox('Ticker Name', ticker_selection)
 
     #####################################################################################################################
     #####################################################################################################################
     #####################################################################################################################
     # Page  1 Tab 3 -  ###################################################################################################
-    if tab3.button('Twitter Analysis'):
-        st.header('Qualitative Analysis')
-        st.selectbox('Ticker', ticker_selection)
+    if tab3.button('Miscellaneous Analysis'):
+        st.title('Yahoo Finance Information Sheet')
+        # choice = st.selectbox('Ticker', ticker_selection)
         
+        ticker_info = yf.Ticker(choice)
+        st.header('Quarterly Balance Sheet')
+        st.write(ticker_info.quarterly_balance_sheet)
+        
+        st.header('Quarterly Financials')
+        st.write(ticker_info.quarterly_financials)
+
+        st.header('Quarterly Cash Flows')
+        st.write(ticker_info.quarterly_cashflow)
+
     #######################################################################################################################
 
 
@@ -375,21 +408,21 @@ elif page == 'Page 2':
     st.title('Risk Metrics')
     ticker = st.selectbox(label = 'Select Ticker', options = ticker_selection)
 
-    # Selecting either Regualar percent change or Log change-------------------------------------------------------
-    ret1,ret2 = st.columns(2)
-    if ret1.checkbox('Percentage Change', value = True):
-        df_returns_pct = df_1.pct_change()
-        df_returns_pct = df_returns_pct.dropna()
-        df_returns_pct = df_returns_pct.replace(np.Inf, -1)
-        df_returns = df_returns_pct
+    # # Selecting either Regualar percent change or Log change-------------------------------------------------------
+    # ret1,ret2 = st.columns(2)
+    # if ret1.checkbox('Percentage Change', value = True):
+    #     df_returns_pct = df_1.pct_change()
+    #     df_returns_pct = df_returns_pct.dropna()
+    #     df_returns_pct = df_returns_pct.replace(np.Inf, -1)
+    #     df_returns = df_returns_pct
 
-    if ret2.checkbox('Log Change'):
-        def log_change(data):
-            ret = np.diff(np.log(data))
-            return ret
-        df_returns = pd.DataFrame()
-        df_returns = df_1.apply(log_change)
-        df_returns.index = df_1.index[1:]
+    # if ret2.checkbox('Log Change'):
+    #     def log_change(data):
+    #         ret = np.diff(np.log(data))
+    #         return ret
+    #     df_returns = pd.DataFrame()
+    #     df_returns = df_1.apply(log_change)
+    #     df_returns.index = df_1.index[1:]
 
     # Fitting the distribution to data------------------------------------------------------------------------------
     f = Fitter(data = df_returns[ticker], distributions = ['norm', 't', 'nct', 'beta'])
@@ -401,26 +434,35 @@ elif page == 'Page 2':
 
         if dist == 'norm':
             param = f.fitted_param[dist]
+            param_df = pd.DataFrame(param, index = ['Mean', 'Std Deviation'], columns = ['Paramaeters'])
             a_tmp = norm.pdf(x_quantile, loc = param[0], scale = param[1])
         
         elif dist == 't':
             param = f.fitted_param[dist]
+            param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis'], columns = ['Paramaeters'])
             a_tmp = t.pdf(x_quantile, param[0], param[1], param[2])
 
         elif dist == 'nct':
             param = f.fitted_param[dist]
+            param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis', 'Skewness'], columns = ['Paramaeters'])
             a_tmp = nct.pdf(x_quantile, param[0], param[1], param[2], param[3])
         
         elif dist == 'beta':
             param = f.fitted_param[dist]
+            param_df = pd.DataFrame(param, index = ['Location', 'Scale', 'Kurtosis', 'Skewness'], columns = ['Paramaeters (TO BE FIXED)'])
             a_tmp = beta.pdf(x_quantile, param[0], param[1], param[2], param[3])
         
-        return x_quantile, a_tmp
+        return x_quantile, a_tmp, param_df
         
     f.fit()
-    col_dist1, col_dist2 = st.columns(2)
-    col_dist1.write(f.summary())
-    opt = col_dist2.selectbox("Distribution Choices", ['norm', 't', 'nct', 'beta'])
+
+   # tmp_fig = distribution_fitting(df_returns[ticker], opt)
+
+    col_dist1, col_dist2, col_dist3 = st.columns(3)
+    opt = col_dist1.selectbox("Distribution Choices", ['norm', 't', 'nct', 'beta'])
+    col_dist2.write(f.summary())
+    col_dist3.write(distribution_fitting(df_returns[ticker], opt)[2])
+    # col_dist3.table(f.fitted_param[opt])
 
     # Plotly Plot of histogram and fitted distribution ---------------------------------------------------------------------
     tmp_fig = distribution_fitting(df_returns[ticker], opt)
@@ -428,9 +470,9 @@ elif page == 'Page 2':
     fig.add_trace(go.Histogram(x = df_returns[ticker], name = ticker, histnorm = 'probability density'))
     fig.add_trace(go.Scatter(x = tmp_fig[0], y = tmp_fig[1], name = opt))
 
-    col_dis1, col_dis2 = st.columns(2)
-    col_dist2.write(f.fitted_param[opt])
-    col_dist1.plotly_chart(fig)
+    
+    st.plotly_chart(fig)
+
 
 
 
