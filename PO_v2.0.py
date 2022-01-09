@@ -449,7 +449,7 @@ elif page == 'Page 2':
 
     col_dist1, col_dist2, col_dist3 = st.columns(3)
     opt = col_dist1.selectbox("Distribution Choices", ['norm', 't', 'nct', 'beta'])
-    col_dist2.write(f.summary())
+    col_dist2.write(f.summary(method = 'aic'))
     col_dist3.write(distribution_fitting(df_returns[ticker], opt)[2])
     # col_dist3.table(f.fitted_param[opt])
 
@@ -472,7 +472,7 @@ elif page == 'Page 2':
     var2.metric(label = "VaR Parametric", value = f"{np.round(distribution_fitting(df_returns[ticker], opt, conf_interval)[4], 4) * -100}%")
 
 
-    st.title("Black Scholes Merton Framework to Estimate Price Fluctuations")
+    st.header("Black Scholes Merton Framework to Estimate Price Fluctuations")
 
     def bsm_estimation_price(data, data2, T = 5, change = 10):
         # r = 0.02 * T
@@ -495,11 +495,14 @@ elif page == 'Page 2':
 
         return d1, d2, r, sigma
 
-    bsm1, bsm2, bsm3 = st.columns(3)
-    price_change = st.slider(label = "Percent Increase in Close Price", min_value = 5, max_value = 100, value = 5, step = 5)
-    t = st.slider(label = "Time Frame (Days)", min_value = 5, max_value = 252, value = 10, step = 5)
+    bsm1, bsm2 = st.columns(2)
+    price_change = bsm1.slider(label = "Percent Increase in Close Price", min_value = 5, max_value = 100, value = 5, step = 5)
+    t = bsm2.slider(label = "Time Frame (Days)", min_value = 5, max_value = 252, value = 10, step = 5)
 
-    st.table(data = bsm_estimation_price(df_1[ticker], df_returns[ticker], T = t, change = price_change))
+
+    bsm3, bsm4 = st.columns(2)
+    bsm3.metric(label = "Probability of Positive Performance", value = f"{np.round(bsm_estimation_price(df_1[ticker], df_returns[ticker], T = t, change = price_change)[0], 2)}%")
+    bsm4.metric(label = "Probability of Negative Performance", value = f"{np.round(bsm_estimation_price(df_1[ticker], df_returns[ticker], T = t, change = price_change)[1], 2)}%")
 
 elif page == 'Page 3':
     st.write('Test 3')    
